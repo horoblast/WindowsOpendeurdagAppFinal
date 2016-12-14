@@ -12,6 +12,8 @@ namespace WindowsOpendeurdagAppWeb.Models
 
         public string Name { get; set; }
 
+        public string Afkorting { get; set; }
+
         /*
         [ForeignKey("CampusId")]
         public int CampusId { get; set; }

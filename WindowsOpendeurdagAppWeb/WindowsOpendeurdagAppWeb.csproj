@@ -182,6 +182,22 @@
     <Compile Include="Migrations\201612141440098_Initial7.Designer.cs">
       <DependentUpon>201612141440098_Initial7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612141449130_Initial8.cs" />
+    <Compile Include="Migrations\201612141449130_Initial8.Designer.cs">
+      <DependentUpon>201612141449130_Initial8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612141457111_Initial9.cs" />
+    <Compile Include="Migrations\201612141457111_Initial9.Designer.cs">
+      <DependentUpon>201612141457111_Initial9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612141457521_Initial10.cs" />
+    <Compile Include="Migrations\201612141457521_Initial10.Designer.cs">
+      <DependentUpon>201612141457521_Initial10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612141517443_Initial11.cs" />
+    <Compile Include="Migrations\201612141517443_Initial11.Designer.cs">
+      <DependentUpon>201612141517443_Initial11.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\CalendarEvent.cs" />
@@ -226,6 +242,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612141440098_Initial7.resx">
       <DependentUpon>201612141440098_Initial7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612141449130_Initial8.resx">
+      <DependentUpon>201612141449130_Initial8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612141457111_Initial9.resx">
+      <DependentUpon>201612141457111_Initial9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612141457521_Initial10.resx">
+      <DependentUpon>201612141457521_Initial10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612141517443_Initial11.resx">
+      <DependentUpon>201612141517443_Initial11.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -21,8 +21,8 @@ namespace WindowsOpendeurdagAppWeb.Models
 
         public int Telnr { get; set; }
 
-        public virtual ICollection<Campus> Campussen { get; set; }
+        public Campus Campus { get; set; }
 
-        public virtual ICollection<Richting> Richtingen { get; set; }
+        public Richting Richting { get; set; }
     }
 }
