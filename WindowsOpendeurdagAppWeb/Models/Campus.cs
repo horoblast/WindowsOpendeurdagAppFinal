@@ -11,8 +11,6 @@ namespace WindowsOpendeurdagAppWeb.Models
 
         public string Name { get; set; }
 
-        public virtual ICollection<Richting> Richtingen { get; set; }
-
         public string Straat { get; set; }
 
         public string Adres { get; set; }
@@ -20,6 +18,8 @@ namespace WindowsOpendeurdagAppWeb.Models
         public string Telnr { get; set; }
 
         public virtual ICollection<Gebouw> Gebouwen { get; set; }
+
+        public virtual ICollection<Richting> Richtingen { get; set; }
 
     }
 }
