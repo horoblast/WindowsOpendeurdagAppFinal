@@ -7,17 +7,54 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="VisualStateMobile">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
 
-    <StackPanel Orientation="Vertical" Padding="20">
-        <Image Source="Assets/Tablet/HogentLogo.png" Stretch="None" HorizontalAlignment="Left"></Image>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
-            <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped" x:Name="Bedrijf">
-                <Image Source="Assets/Tablet/Bedrijf.png"></Image>
-                <TextBlock Text="Bedrijf en Organisatie"></TextBlock>
-            </StackPanel>
-            <StackPanel Orientation="Vertical" Padding="20">
-                <Image Source="Assets/Tablet/Campus.png"></Image>
-            </StackPanel>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="VisualStateTablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Tablet/HogentLogoTablet.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="VisualStateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Desktop/HogentLogo.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+
+        </VisualStateManager.VisualStateGroups>
+        <StackPanel Orientation="Vertical" Padding="20">
+            <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+            <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png" Stretch="None" HorizontalAlignment="Left"></Image>
+            </Border>
+            
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
+                    <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped" x:Name="Bedrijf">
+                        <Image Source="Assets/Tablet/Bedrijf.png"></Image>
+                        <TextBlock Text="Bedrijf en Organisatie"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Padding="20">
+                        <Image Source="Assets/Tablet/Campus.png"></Image>
+                    </StackPanel>
+                </StackPanel>
+            
         </StackPanel>
-    </StackPanel>
+    </Grid>
+
 </Page>

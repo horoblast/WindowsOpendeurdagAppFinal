@@ -136,3 +136,4 @@ C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.csproj.GenerateResource.Cache
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.dll
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.pdb
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.Migrations.Initial12.resources

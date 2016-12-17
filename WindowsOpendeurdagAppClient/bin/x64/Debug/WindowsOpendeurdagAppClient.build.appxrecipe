@@ -334,14 +334,20 @@
     <AppxPackagedFile Include="C:\Users\jonas\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Phone\HogentLogoMobile.png">
+      <PackagePath>Assets\Phone\HogentLogoMobile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\HogentLogoTablet.png">
+      <PackagePath>Assets\Tablet\HogentLogoTablet.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\Bedrijf.png">
       <PackagePath>Assets\Tablet\Bedrijf.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\Campus.png">
       <PackagePath>Assets\Tablet\Campus.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\HogentLogo.png">
-      <PackagePath>Assets\Tablet\HogentLogo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\HogentLogo.png">
+      <PackagePath>Assets\Desktop\HogentLogo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

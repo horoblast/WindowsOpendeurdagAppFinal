@@ -1,5 +1,7 @@
 WinMetadata\Windows.winmd
+Assets\Desktop\HogentLogo.png
 Assets\LockScreenLogo.scale-200.png
+Assets\Phone\HogentLogoMobile.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
@@ -7,7 +9,7 @@ Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Tablet\Bedrijf.png
 Assets\Tablet\Campus.png
-Assets\Tablet\HogentLogo.png
+Assets\Tablet\HogentLogoTablet.png
 Assets\Tablet\Nieuws.jpg
 Assets\Tablet\Opendeurdag.jpg
 Assets\Wide310x150Logo.scale-200.png

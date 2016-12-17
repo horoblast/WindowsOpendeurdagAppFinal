@@ -198,6 +198,10 @@
     <Compile Include="Migrations\201612141517443_Initial11.Designer.cs">
       <DependentUpon>201612141517443_Initial11.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612161442045_Initial12.cs" />
+    <Compile Include="Migrations\201612161442045_Initial12.Designer.cs">
+      <DependentUpon>201612161442045_Initial12.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\CalendarEvent.cs" />
@@ -254,6 +258,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612141517443_Initial11.resx">
       <DependentUpon>201612141517443_Initial11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612161442045_Initial12.resx">
+      <DependentUpon>201612161442045_Initial12.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

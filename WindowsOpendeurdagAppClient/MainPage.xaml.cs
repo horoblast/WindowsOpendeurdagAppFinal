@@ -29,7 +29,7 @@ namespace WindowsOpendeurdagAppClient
 
         private void StackPanel_Tapped(object sender, TappedRoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(GebruikerFormulier), null);
         }
     }
 }

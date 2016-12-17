@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-14T17:59:08.567</Modified>
+      <Modified>2016-12-17T00:03:09.748</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.exe">
       <PackagePath>entrypoint\WindowsOpendeurdagAppClient.exe</PackagePath>
-      <Modified>2016-12-14T17:58:57.064</Modified>
+      <Modified>2016-12-17T00:03:01.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,6 +448,14 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Phone\HogentLogoMobile.png">
+      <PackagePath>Assets\Phone\HogentLogoMobile.png</PackagePath>
+      <Modified>2016-12-16T21:04:38.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\HogentLogoTablet.png">
+      <PackagePath>Assets\Tablet\HogentLogoTablet.png</PackagePath>
+      <Modified>2016-12-16T19:57:31.527</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\Bedrijf.png">
       <PackagePath>Assets\Tablet\Bedrijf.png</PackagePath>
       <Modified>2016-12-14T17:35:20.785</Modified>
@@ -456,8 +464,8 @@
       <PackagePath>Assets\Tablet\Campus.png</PackagePath>
       <Modified>2016-12-14T17:35:20.789</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\HogentLogo.png">
-      <PackagePath>Assets\Tablet\HogentLogo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\HogentLogo.png">
+      <PackagePath>Assets\Desktop\HogentLogo.png</PackagePath>
       <Modified>2016-12-14T17:48:26.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\LockScreenLogo.scale-200.png">
@@ -508,7 +516,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.xr.xml">
       <PackagePath>WindowsOpendeurdagAppClient.xr.xml</PackagePath>
-      <Modified>2016-12-14T17:58:55.248</Modified>
+      <Modified>2016-12-17T00:03:00.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -517,11 +525,11 @@
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-14T17:59:05.784</Modified>
+      <Modified>2016-12-17T00:03:08.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\WindowsOpendeurdagAppClient.exe">
       <PackagePath>WindowsOpendeurdagAppClient.exe</PackagePath>
-      <Modified>2016-12-14T17:59:08.562</Modified>
+      <Modified>2016-12-17T00:03:09.743</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
