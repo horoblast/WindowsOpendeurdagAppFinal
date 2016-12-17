@@ -36,6 +36,10 @@
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="home.Source" Value="../Assets/Desktop/HogentLogo.png"></Setter>
+                        <Setter Target="bedrijf.Source" Value="../Assets/Desktop/Bedrijf.png"></Setter>
+                        <Setter Target="campus.Source" Value="../Assets/Desktop/Campus.png"></Setter>
+                        <Setter Target="nieuws.Source" Value="../Assets/Desktop/Nieuws.jpg"></Setter>
+                        <Setter Target="gegevens.Source" Value="../Assets/Desktop/Opendeurdag.jpg"></Setter>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
@@ -58,11 +62,11 @@
                 </StackPanel>
             <StackPanel x:Name="stack2" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
                 <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_2" >
-                        <Image Source="Assets/Tablet/NieuwsTablet.jpg" Stretch="None"></Image>
+                        <Image x:Name="nieuws" Source="Assets/Tablet/NieuwsTablet.jpg" Stretch="None"></Image>
                     <TextBlock Text="Nieuws"></TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_3" >
-                        <Image Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
+                        <Image x:Name="gegevens" Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
                         <TextBlock Text="Gegevens"></TextBlock>
                     </StackPanel>
             </StackPanel>

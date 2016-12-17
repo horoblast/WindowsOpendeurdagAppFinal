@@ -119,6 +119,10 @@
     <None Include="WindowsOpendeurdagAppClient_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Desktop\Bedrijf.png" />
+    <Content Include="Assets\Desktop\Campus.png" />
+    <Content Include="Assets\Desktop\Nieuws.jpg" />
+    <Content Include="Assets\Desktop\Opendeurdag.jpg" />
     <Content Include="Assets\Phone\HogentLogoMobile.png" />
     <Content Include="Assets\Tablet\BedrijfTablet.png" />
     <Content Include="Assets\Tablet\CampusTablet.png" />
