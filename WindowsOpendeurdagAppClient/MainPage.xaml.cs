@@ -29,6 +29,21 @@ namespace WindowsOpendeurdagAppClient
 
         private void StackPanel_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            this.Frame.Navigate(typeof(OpleidingenFBO), null);
+        }
+
+        private void StackPanel_Tapped_1(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Campussen), null);
+        }
+
+        private void StackPanel_Tapped_2(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Nieuws), null);
+        }
+
+        private void StackPanel_Tapped_3(object sender, TappedRoutedEventArgs e)
+        {
             this.Frame.Navigate(typeof(GebruikerFormulier), null);
         }
     }

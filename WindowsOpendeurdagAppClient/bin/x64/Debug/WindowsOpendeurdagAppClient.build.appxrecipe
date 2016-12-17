@@ -337,14 +337,14 @@
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Phone\HogentLogoMobile.png">
       <PackagePath>Assets\Phone\HogentLogoMobile.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\BedrijfTablet.png">
+      <PackagePath>Assets\Tablet\BedrijfTablet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\CampusTablet.png">
+      <PackagePath>Assets\Tablet\CampusTablet.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\HogentLogoTablet.png">
       <PackagePath>Assets\Tablet\HogentLogoTablet.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\Bedrijf.png">
-      <PackagePath>Assets\Tablet\Bedrijf.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\Campus.png">
-      <PackagePath>Assets\Tablet\Campus.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\HogentLogo.png">
       <PackagePath>Assets\Desktop\HogentLogo.png</PackagePath>
@@ -376,11 +376,11 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\Nieuws.jpg">
-      <PackagePath>Assets\Tablet\Nieuws.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\NieuwsTablet.jpg">
+      <PackagePath>Assets\Tablet\NieuwsTablet.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\Opendeurdag.jpg">
-      <PackagePath>Assets\Tablet\Opendeurdag.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\OpendeurdagTablet.jpg">
+      <PackagePath>Assets\Tablet\OpendeurdagTablet.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

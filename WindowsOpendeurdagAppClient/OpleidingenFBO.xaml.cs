@@ -15,16 +15,21 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace WindowsOpendeurdagAppClient.Views
+namespace WindowsOpendeurdagAppClient
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Richtingen : Page
+    public sealed partial class OpleidingenFBO : Page
     {
-        public Richtingen()
+        public OpleidingenFBO()
         {
             this.InitializeComponent();
+        }
+
+        private void home_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage), null);
         }
     }
 }

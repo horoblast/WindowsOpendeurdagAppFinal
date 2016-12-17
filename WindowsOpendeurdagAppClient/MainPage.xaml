@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+    
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="VisualStateMobile">
@@ -15,7 +16,8 @@
                         <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-
+                        <Setter Target="stack1.Orientation" Value="vertical"></Setter>
+                        <Setter Target="stack2.Orientation" Value="vertical"></Setter>
                     </VisualState.Setters>
                 </VisualState>
 
@@ -39,22 +41,32 @@
             </VisualStateGroup>
 
         </VisualStateManager.VisualStateGroups>
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical" Padding="20">
-            <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-            <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png" Stretch="None" HorizontalAlignment="Left"></Image>
-            </Border>
-            
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
-                    <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped" x:Name="Bedrijf">
-                        <Image Source="Assets/Tablet/Bedrijf.png"></Image>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"></Image>
+                </Border>
+                <StackPanel x:Name="stack1" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
+                    <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped">
+                        <Image x:Name="bedrijf" Source="Assets/Tablet/BedrijfTablet.png" Stretch="None"></Image>
                         <TextBlock Text="Bedrijf en Organisatie"></TextBlock>
                     </StackPanel>
-                    <StackPanel Orientation="Vertical" Padding="20">
-                        <Image Source="Assets/Tablet/Campus.png"></Image>
+                    <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_1" >
+                        <Image x:Name="campus" Source="Assets/Tablet/CampusTablet.png" Stretch="None"></Image>
+                        <TextBlock Text="Campussen"></TextBlock>
                     </StackPanel>
                 </StackPanel>
-            
+            <StackPanel x:Name="stack2" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
+                <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_2" >
+                        <Image Source="Assets/Tablet/NieuwsTablet.jpg" Stretch="None"></Image>
+                    <TextBlock Text="Nieuws"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_3" >
+                        <Image Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
+                        <TextBlock Text="Gegevens"></TextBlock>
+                    </StackPanel>
+            </StackPanel>
         </StackPanel>
     </Grid>
-
+</ScrollViewer>
 </Page>
