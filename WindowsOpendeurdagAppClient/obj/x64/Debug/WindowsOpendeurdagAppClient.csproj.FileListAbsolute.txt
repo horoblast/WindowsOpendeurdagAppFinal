@@ -209,3 +209,4 @@ C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Campussen.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Nieuws.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\OpleidingenFBO.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\WindowsOpendeurdagAppClient.csprojResolveAssemblyReference.cache

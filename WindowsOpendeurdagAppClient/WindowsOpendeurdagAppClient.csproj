@@ -130,6 +130,10 @@
     <Content Include="Assets\Desktop\HogentLogo.png" />
     <Content Include="Assets\Tablet\NieuwsTablet.jpg" />
     <Content Include="Assets\Tablet\OpendeurdagTablet.jpg" />
+    <Content Include="Assets\Tablet\opl1Tablet.png" />
+    <Content Include="Assets\Tablet\opl2Tablet.png" />
+    <Content Include="Assets\Tablet\opl3RetailTablet.png" />
+    <Content Include="Assets\Tablet\opl4Tablet.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

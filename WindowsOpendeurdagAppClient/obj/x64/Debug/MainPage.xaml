@@ -67,7 +67,7 @@
                 </StackPanel>
                 <StackPanel x:ConnectionId='8' Orientation="Vertical" Padding="20"                              >
                         <Image x:ConnectionId='9' x:Name="gegevens" Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
-                        <TextBlock Text="Gegevens"></TextBlock>
+                        <TextBlock Text="Gegevens" ></TextBlock>
                     </StackPanel>
             </StackPanel>
         </StackPanel>

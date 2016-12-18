@@ -355,6 +355,18 @@
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\HogentLogo.png">
       <PackagePath>Assets\Desktop\HogentLogo.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl1Tablet.png">
+      <PackagePath>Assets\Tablet\opl1Tablet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl2Tablet.png">
+      <PackagePath>Assets\Tablet\opl2Tablet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl3RetailTablet.png">
+      <PackagePath>Assets\Tablet\opl3RetailTablet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl4Tablet.png">
+      <PackagePath>Assets\Tablet\opl4Tablet.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>

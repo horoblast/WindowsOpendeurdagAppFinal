@@ -16,7 +16,8 @@
                         <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-
+                        <Setter Target="opleidingen.Orientation" Value="vertical"></Setter>
+                        <Setter Target="opleidingen2.Orientation" Value="vertical"></Setter>
                     </VisualState.Setters>
                 </VisualState>
 
@@ -41,11 +42,49 @@
 
         </VisualStateManager.VisualStateGroups>
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-            <StackPanel Orientation="Vertical" Padding="20">
+            <StackPanel Orientation="Vertical" Padding="20" Margin="10">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                     <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left" Tapped="home_Tapped"></Image>
                 </Border>
+                <StackPanel Padding="10"></StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2">
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Vertical" Background="Aqua" Padding="20">
+                            <TextBlock Text="Faculteit Bedrijf en Organisatie" FontSize="22" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock  HorizontalAlignment="Center" TextWrapping="Wrap" Text="Word ondernemer van je eigen succes. Wil je aan de slag in de bedrijfswereld? Durf je verantwoordelijkheden op jou nemen en heb je zin voor initiatief? Bekijk dan onze opleidingen die nauw aansluiten bij de bedrijfswereld."></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="Opleidingen" Padding="10"></TextBlock>
+                </StackPanel>
 
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" x:Name="opleidingen" Padding="10" HorizontalAlignment="Center">
+                        <StackPanel Orientation="Vertical" Padding="10">
+                            <Image Source="Assets/Tablet/opl1Tablet.png" Stretch="None"></Image>
+                            <TextBlock Text="Bedrijfsmanagement"></TextBlock>
+                            <TextBlock Text="Ook in aalst."></TextBlock>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" Padding="10" >
+                            <Image Source="Assets/Tablet/opl2Tablet.png" Stretch="None"></Image>
+                            <TextBlock Text="Bedrijfsmanagement"></TextBlock>
+                            <TextBlock Text="Ook in aalst."></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" x:Name="opleidingen2" Padding="10" HorizontalAlignment="Center">
+                        <StackPanel Orientation="Vertical" Padding="10">
+                            <Image Source="Assets/Tablet/opl3RetailTablet.png" Stretch="None"></Image>
+                            <TextBlock Text="Bedrijfsmanagement"></TextBlock>
+                            <TextBlock Text="Ook in aalst."></TextBlock>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" Padding="10">
+                            <Image Source="Assets/Tablet/opl4Tablet.png" Stretch="None"></Image>
+                            <TextBlock Text="Bedrijfsmanagement"></TextBlock>
+                            <TextBlock Text="Ook in aalst."></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
             </StackPanel>
         </Grid>
     </ScrollViewer>
