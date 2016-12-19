@@ -25,7 +25,6 @@ namespace WindowsOpendeurdagAppClient
     /// </summary>
     public sealed partial class GebruikerFormuliers : Page
     {
-        HttpClient client;
 
         public GebruikerFormuliers()
         {
@@ -37,37 +36,38 @@ namespace WindowsOpendeurdagAppClient
             this.Frame.Navigate(typeof(MainPage), null);
         }
 
-        private async void Button_Tapped(object sender, TappedRoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            client = new HttpClient();
-            try
+
+            try { 
+            var form = new GebruikerFormulier
             {
-                 
-                GebruikerFormulier form = new GebruikerFormulier {
-                    Voornaam = this.voornaam.Text,
-                    Achternaam = this.achternaam.Text,
-                    Geboortedatum = DateTime.Parse(this.geboortedatum.ToString()),
+                Voornaam = this.voornaam.Text,
+                Achternaam = this.achternaam.Text,
+                Geboortedatum = this.geboortedatum.Date.ToString(),
                     Straat = this.adres.Text,
                     Email = this.email.Text,
                     Telnr = int.Parse(this.gsmnummer.Text),
                     Campus = this.campus.SelectedItem.ToString(),
                     Richting = this.opleiding.SelectedItem.ToString()
-    };
+                };
+                HttpClient client = new HttpClient();
                 var formJson = JsonConvert.SerializeObject(form);
                 var res = await client.PostAsync("http://localhost:64288/api/gebruikerformuliers", new
                     StringContent(formJson, System.Text.Encoding.UTF8, "application/json"));
+            voornaam.Text = string.Empty;
+            achternaam.Text = string.Empty;
+            adres.Text = string.Empty;
+            email.Text = string.Empty;
+            gsmnummer.Text = string.Empty;
+            campus.SelectedIndex = 0;
+            opleiding.SelectedIndex = 0;
+            geboortedatum.Date = DateTime.Now;
+                error.Text = "";
             }
             catch (Exception ex)
             {
-               
-            }
-            finally
-            {
-                if (client != null)
-                {
-                    client.Dispose();
-                    client = null;
-                }
+                error.Text = "Oops, er ging iets fout !";
             }
         }
     }

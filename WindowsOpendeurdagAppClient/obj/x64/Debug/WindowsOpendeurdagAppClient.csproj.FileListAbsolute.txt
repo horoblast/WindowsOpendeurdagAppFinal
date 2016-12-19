@@ -189,11 +189,6 @@ C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\ProjectArchitectures.txt
-C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\GebruikerFormulier.g.i.cs
-C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\GebruikerFormulier.g.cs
-C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\GebruikerFormulier.xaml
-C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\GebruikerFormulier.xbf
-C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\GebruikerFormulier.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Campussen.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Nieuws.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\OpleidingenFBO.xbf
@@ -209,7 +204,6 @@ C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Campussen.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Nieuws.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\OpleidingenFBO.xbf
-C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\WindowsOpendeurdagAppClient.csprojResolveAssemblyReference.cache
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Bedrijfsmanagement.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Officemanagement.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Retailmanagement.xbf
@@ -230,3 +224,10 @@ C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Officemanagement.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Retailmanagement.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Toegepasteinformatica.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\GebruikerFormuliers.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\GebruikerFormuliers.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\GebruikerFormuliers.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\GebruikerFormuliers.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\GebruikerFormuliers.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\WindowsOpendeurdagAppClient.csprojResolveAssemblyReference.cache

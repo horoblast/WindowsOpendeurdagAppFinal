@@ -13,7 +13,7 @@ namespace WindowsOpendeurdagAppWeb.Models
 
         public string Achternaam { get; set; }
 
-        public DateTime Geboortedatum { get; set; }
+        public string Geboortedatum { get; set; }
 
         public string Straat { get; set; }
 

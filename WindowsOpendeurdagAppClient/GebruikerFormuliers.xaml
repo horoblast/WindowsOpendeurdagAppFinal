@@ -99,9 +99,11 @@
                                     <x:String>Vesalius</x:String>
                                 </ComboBox>
                             </StackPanel>
-
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
-                                <Button Content="Verstuur" Tapped="Button_Tapped"></Button>
+                                <TextBlock x:Name="error" Foreground="Red"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                                <Button Content="Verstuur" Click="Button_Click" ></Button>
                             </StackPanel>
                         </StackPanel>
                        

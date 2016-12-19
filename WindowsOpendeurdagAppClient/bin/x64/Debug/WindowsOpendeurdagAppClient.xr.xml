@@ -55,6 +55,7 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -66,14 +67,19 @@
     <RootType FullName="WindowsOpendeurdagAppClient.Campussen" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
-      <RootEvent Name="Tapped" />
+      <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="SelectedIndex" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="System.String" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="InputScope" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker" />
-    <RootType FullName="WindowsOpendeurdagAppClient.GebruikerFormulier" />
+    <RootType FullName="WindowsOpendeurdagAppClient.GebruikerFormuliers" />
     <RootType FullName="WindowsOpendeurdagAppClient.MainPage" />
     <RootType FullName="WindowsOpendeurdagAppClient.Nieuws" />
     <RootType FullName="WindowsOpendeurdagAppClient.Officemanagement" />
