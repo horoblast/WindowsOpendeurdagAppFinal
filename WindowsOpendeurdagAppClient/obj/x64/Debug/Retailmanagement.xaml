@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="WindowsOpendeurdagAppClient.Retailmanagement"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsOpendeurdagAppClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='1' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='2' x:Name="VisualStateMobile">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:ConnectionId='3' x:Name="VisualStateTablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Tablet/HogentLogoTablet.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:ConnectionId='4' x:Name="VisualStateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Desktop/HogentLogo.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+
+        </VisualStateManager.VisualStateGroups>
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <StackPanel Orientation="Vertical" Padding="20">
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <Image x:ConnectionId='5' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     />
+                </Border>
+                <StackPanel Padding="10"></StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="RetailManagement" FontSize="22" TextWrapping="Wrap" Margin="10"></TextBlock>
+                        <StackPanel Orientation="Vertical" Padding="10" Margin="10">
+                            <TextBlock Text="De opleiding tot bachelor in het retailmanagement bereidt jou voor op de job van strategisch manager in de detailhandel. Het is een veelzijdige opleiding waarin je kennismaakt met alle aspecten van het leiden van een winkel: zowel de strategie, het commerciële, het financiële, het personeelsaspect, de communicatie en het juridische. Maar het is vooral ook een opleiding waarbij je al doende leert. Want de opleiding wordt enkel aangeboden in de vorm van duaal leren." TextWrapping="Wrap"></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock  TextWrapping="Wrap" Text="Duaal leren betekent dat je om beurten drie weken aan de hogeschool studeert en daarna drie weken op de werkvloer gaat leren - onder begeleiding van een docent-begeleider en van een bedrijfscoach. Er is een hechte samenwerking tussen de coach in het winkelbedrijf en de lesgevers van de HoGent. 
+Het volledige programma is uitgewerkt in een samenwerking tussen de HoGent en de retailsector. De opleiding wordt gesteund door Comeos, de organisatie van de Belgische handel en diensten. We werken samen met een dertigtal bedrijven uit de meest diverse sectoren, gespreid over het hele Vlaamse land.
+De opleiding werd na een grondig onderzoek in opdracht van de Vlaamse overheid erkend door de minister van Onderwijs, en leidt tot het diploma van (professionele) bachelor. 
+We richten ons speciaal naar enthousiaste en ondernemende studenten met een hart voor het winkelbedrijf."></TextBlock>
+                            <TextBlock Text="Intakegesprek" FontSize="20" TextWrapping="Wrap" Margin="10"></TextBlock>
+                            <TextBlock Text="Heb je interesse om volgend academiejaar te starten met Retailmanagement?
+Stuur dan een e-mail naar retail@hogent.be. Wij brengen jou in de loop van de maand februari op de hoogte van de data waarop de intakegesprekken gepland zijn.
+Tot binnenkort!" TextWrapping="Wrap" Margin="10"></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+        </Grid>
+    </ScrollViewer>
+</Page>
+

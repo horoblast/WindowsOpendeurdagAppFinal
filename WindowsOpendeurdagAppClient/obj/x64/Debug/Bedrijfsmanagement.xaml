@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="WindowsOpendeurdagAppClient.Bedrijfsmanagement"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsOpendeurdagAppClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='1' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='2' x:Name="VisualStateMobile">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:ConnectionId='3' x:Name="VisualStateTablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Tablet/HogentLogoTablet.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:ConnectionId='4' x:Name="VisualStateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Desktop/HogentLogo.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+
+        </VisualStateManager.VisualStateGroups>
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <StackPanel Orientation="Vertical" Padding="20">
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <Image x:ConnectionId='5' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     />
+                </Border>
+                <StackPanel Padding="10"></StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Bedrijfsmanagement"  Margin="10" FontSize="22" TextWrapping="Wrap"></TextBlock>
+                        <StackPanel Orientation="Vertical" Padding="10" Margin="10">
+                            <TextBlock Text="De opleiding bachelor in het bedrijfsmanagement duurt drie jaar. Je kiest vanaf het eerste jaar je afstudeerrichting. Vanaf de eerste les kan je gaan voor wat je echt boeit en zie je al onmiddellijk de link met het beroepsleven." TextWrapping="Wrap"></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock Text="Talentmanagement: je talent optimaal benutten" FontSize="20" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="De opleiding bedrijfsmanagement wil je actief begeleiden in je persoonlijke ontwikkeling en in de ontwikkeling van je competenties en talenten. Je krijgt een coach die met jou 1-to-1 je volledige studietraject begeleidt en je met raad en daad bijstaat. In het eerste jaar ligt de focus vooral op jezelf leren kennen als student en op je studieproces."></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="In het tweede en het derde jaar ligt de focus op je persoonlijke ontwikkeling en op je beroepskeuze. Je coach bespreekt ook samen met jou de ideale stageplaats als voorbereiding op de job die je graag wil. Je leert ook meteen om een goed CV op te stellen dat vertrekt van je eigen sterktes. Heel belangrijk is dat jij altijd de centrale figuur bent in de coachingsessies. Jij bent altijd diegene die voor jezelf onderzoekt wat je kan en wat je wil. En je onderneemt ook eigen acties om jezelf bij te sturen naar een optimale slaagkans."></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock Text="The World is a Village: internationale ervaringen verruimen je horizon" FontSize="20" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="Onze studenten moeten wereldburgers worden en dit kan alleen door ook in je opleiding de kans te krijgen om internationale en interculturele competenties te verwerven. Je zal dus letterlijk grenzen kunnen verleggen door intensief contact met niet alleen lesgevers, studenten en bedrijven van bij ons. Ook buitenlandse contacten en relaties zullen je inzichten verdiepen en verruimen. Naast gastsprekers, internationale topics in de lessen, buitenlandse studiereizen, opdrachten in samenwerking met buitenlandse studenten en organisaties enz. kan je bijvoorbeeld ook een tijdje in het buitenland gaan studeren of kiezen voor een buitenlandse stage. Gaandeweg bouw je een internationaal netwerk op en al je ervaringen ga je bundelen in je zogeheten internationaal paspoort: een verplicht opleidingsonderdeel voor alle richtingen bedrijfsmanagement. En een gouden troef voor je latere professionele carrière."></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="Wens je meer informatie? Stuur een mail naar de Academische Coördinator Internationalisering Bedrijfsmanagement: fabienne.mornie@hogent.be"></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>
+

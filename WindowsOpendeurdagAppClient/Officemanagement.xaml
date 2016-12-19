@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="WindowsOpendeurdagAppClient.Officemanagement"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsOpendeurdagAppClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="VisualStateMobile">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="VisualStateTablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Tablet/HogentLogoTablet.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="VisualStateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Desktop/HogentLogo.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+
+        </VisualStateManager.VisualStateGroups>
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <StackPanel Orientation="Vertical" Padding="20">
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left" Tapped="home_Tapped"/>
+                </Border>
+                <StackPanel Padding="10"></StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Office Management"  Margin="10" FontSize="22" TextWrapping="Wrap"></TextBlock>
+                        <StackPanel Orientation="Vertical" Padding="10" Margin="10">
+                            <TextBlock Text="Je bent een doener en je houdt van uitdagingen. In een team ben jij diegene die organiseert en coördineert. Je weet van aanpakken en bent een punctuele multitasker. Voor jou moeten de zaken vooruitgaan, goed getimed en gepland. Talen zijn volledig je ding en je communiceert graag. Je blik is internationaal, je aanpak no-nonsense." TextWrapping="Wrap"></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="De opleiding office management bereidt je perfect voor op een boeiende job. Dit gebeurt op een veelzijdige manier om tegemoet te komen aan het diverse pakket van taken maar met een
+gerichte focus op drie pijlers:"></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock Text="Talenkennis " FontSize="18"  Margin="10" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="Nederlands, Frans, Engels en mogelijk een vierde taal Spaans of Duits. Je wordt de meertalige medewerker die in elk bedrijf en elke organisatie onmisbaar is."></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock Text="Communicatievaardigheden en organisatorische skills" FontSize="18"  Margin="10" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="efficiënt researchen, prioriteiten detecteren, oplossingsgericht handelen, correct communiceren, overtuigen en onderhandelen, professioneel rapporteren en impactvol presenteren. Je wordt de multifunctionele duizendpoot die de waaier aan taken perfect onder controle heeft."></TextBlock>
+                            <TextBlock></TextBlock>
+                            <TextBlock Text="ICT" FontSize="18"  Margin="10" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="je wordt professionele expert in de meest gangbare softwarepakketten."></TextBlock>
+                            <TextBlock Padding="5"></TextBlock>
+                            <TextBlock Text="Ga meteen voor wat je echt boeit" FontSize="20"  Margin="10" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Text="De opleiding office management biedt drie afstudeerrichtingen aan. Elke afstudeerrichting legt haar eigen klemtonen en leert je specifieke vaardigheden. Meteen bij de start van je opleiding kies je de afstudeerrichting die jou het meest ligt."></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

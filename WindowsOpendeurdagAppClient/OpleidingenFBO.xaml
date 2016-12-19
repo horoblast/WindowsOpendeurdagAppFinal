@@ -55,36 +55,41 @@
                         </StackPanel>
                     </StackPanel>
                 </Border>
-                <StackPanel HorizontalAlignment="Center">
-                    <TextBlock Text="Opleidingen" Padding="10"></TextBlock>
-                </StackPanel>
+                <StackPanel Padding="10"></StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced" >
+                    <StackPanel >
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock Text="Opleidingen" Padding="10"></TextBlock>
+                    </StackPanel>
 
-                <StackPanel>
-                    <StackPanel Orientation="Horizontal" x:Name="opleidingen" Padding="10" HorizontalAlignment="Center">
-                        <StackPanel Orientation="Vertical" Padding="10">
-                            <Image Source="Assets/Tablet/opl1Tablet.png" Stretch="None"></Image>
-                            <TextBlock Text="Bedrijfsmanagement"></TextBlock>
-                            <TextBlock Text="Ook in aalst."></TextBlock>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" x:Name="opleidingen" Padding="10" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped">
+                                <Image Source="Assets/Tablet/opl1Tablet.png" Stretch="None"></Image>
+                                <TextBlock Text="Bedrijfsmanagement" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="Professionele bachelor (ook in Aalst!)" HorizontalAlignment="Center"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_1" >
+                                <Image Source="Assets/Tablet/opl2Tablet.png" Stretch="None"></Image>
+                                <TextBlock Text="Office management" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="Professionele bachelor (ook in Aalst!)" HorizontalAlignment="Center"></TextBlock>
+                            </StackPanel>
                         </StackPanel>
-                        <StackPanel Orientation="Vertical" Padding="10" >
-                            <Image Source="Assets/Tablet/opl2Tablet.png" Stretch="None"></Image>
-                            <TextBlock Text="Bedrijfsmanagement"></TextBlock>
-                            <TextBlock Text="Ook in aalst."></TextBlock>
+                        <StackPanel Orientation="Horizontal" x:Name="opleidingen2" Padding="10" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_2" >
+                                <Image Source="Assets/Tablet/opl3RetailTablet.png" Stretch="None"></Image>
+                                <TextBlock Text="Retailmanagement" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="Professionele bachelor" HorizontalAlignment="Center"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_3">
+                                <Image Source="Assets/Tablet/opl4Tablet.png" Stretch="None"/>
+                                <TextBlock Text="Toegepaste informatica" HorizontalAlignment="Center"/>
+                                <TextBlock Text="Professionele bachelor (ook in Aalst!)" HorizontalAlignment="Center"/>
+                            </StackPanel>
                         </StackPanel>
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal" x:Name="opleidingen2" Padding="10" HorizontalAlignment="Center">
-                        <StackPanel Orientation="Vertical" Padding="10">
-                            <Image Source="Assets/Tablet/opl3RetailTablet.png" Stretch="None"></Image>
-                            <TextBlock Text="Bedrijfsmanagement"></TextBlock>
-                            <TextBlock Text="Ook in aalst."></TextBlock>
-                        </StackPanel>
-                        <StackPanel Orientation="Vertical" Padding="10">
-                            <Image Source="Assets/Tablet/opl4Tablet.png" Stretch="None"></Image>
-                            <TextBlock Text="Bedrijfsmanagement"></TextBlock>
-                            <TextBlock Text="Ook in aalst."></TextBlock>
-                        </StackPanel>
                     </StackPanel>
-                </StackPanel>
+                </Border>
             </StackPanel>
         </Grid>
     </ScrollViewer>

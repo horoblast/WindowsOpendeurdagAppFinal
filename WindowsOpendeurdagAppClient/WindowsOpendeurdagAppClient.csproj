@@ -95,6 +95,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Bedrijfsmanagement.xaml.cs">
+      <DependentUpon>Bedrijfsmanagement.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Campussen.xaml.cs">
       <DependentUpon>Campussen.xaml</DependentUpon>
     </Compile>
@@ -107,10 +110,19 @@
     <Compile Include="Nieuws.xaml.cs">
       <DependentUpon>Nieuws.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Officemanagement.xaml.cs">
+      <DependentUpon>Officemanagement.xaml</DependentUpon>
+    </Compile>
     <Compile Include="OpleidingenFBO.xaml.cs">
       <DependentUpon>OpleidingenFBO.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retailmanagement.xaml.cs">
+      <DependentUpon>Retailmanagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Toegepasteinformatica.xaml.cs">
+      <DependentUpon>Toegepasteinformatica.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -148,6 +160,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Bedrijfsmanagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Campussen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -164,7 +180,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Officemanagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="OpleidingenFBO.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Retailmanagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Toegepasteinformatica.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

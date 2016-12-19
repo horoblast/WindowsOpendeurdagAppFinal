@@ -31,5 +31,25 @@ namespace WindowsOpendeurdagAppClient
         {
             this.Frame.Navigate(typeof(MainPage), null);
         }
+
+        private void StackPanel_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Bedrijfsmanagement), null);
+        }
+
+        private void StackPanel_Tapped_1(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Officemanagement), null);
+        }
+
+        private void StackPanel_Tapped_2(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Retailmanagement), null);
+        }
+
+        private void StackPanel_Tapped_3(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Toegepasteinformatica), null);
+        }
     }
 }
