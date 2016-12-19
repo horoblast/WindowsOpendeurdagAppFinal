@@ -101,12 +101,13 @@
     <Compile Include="Campussen.xaml.cs">
       <DependentUpon>Campussen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GebruikerFormulier.xaml.cs">
-      <DependentUpon>GebruikerFormulier.xaml</DependentUpon>
+    <Compile Include="GebruikerFormuliers.xaml.cs">
+      <DependentUpon>GebruikerFormuliers.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\GebruikerFormulier.cs" />
     <Compile Include="Nieuws.xaml.cs">
       <DependentUpon>Nieuws.xaml</DependentUpon>
     </Compile>
@@ -168,7 +169,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GebruikerFormulier.xaml">
+    <Page Include="GebruikerFormuliers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

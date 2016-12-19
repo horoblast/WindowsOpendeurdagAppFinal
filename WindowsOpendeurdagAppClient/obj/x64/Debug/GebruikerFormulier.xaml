@@ -40,42 +40,47 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical" Padding="5">
             <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                <Image x:ConnectionId='11' x:Name="home" Source="Assets/Phone/HogentLogoMobile.png" Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                <Image x:ConnectionId='12' x:Name="home" Source="Assets/Phone/HogentLogoMobile.png" Stretch="None" HorizontalAlignment="Left"                     ></Image>
             </Border>
            
             <StackPanel Orientation="Vertical">
-                            <TextBlock Text="Gegevens" FontSize="22"></TextBlock>
-                            <TextBlock TextWrapping="Wrap" Text="Interesse in een van onze opleidingen? Laat dan gerust hier uw gegevens achter." Padding="10"></TextBlock>
+                    <TextBlock Text="Gegevens" FontSize="22" HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock TextWrapping="Wrap" Text="Interesse in een van onze opleidingen? Laat dan gerust hier uw gegevens achter." Padding="10" HorizontalAlignment="Center"></TextBlock>
 
                     <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
 
                     <StackPanel Orientation="Vertical" Padding="5">
-                        <StackPanel Orientation="Horizontal" Padding="5">
-                            <TextBlock Text="Voornaam" Padding="10"></TextBlock>
-                            <TextBox x:ConnectionId='10' x:Name="voornaam" PlaceholderText="Geef hier uw voornaam in"></TextBox>
+                        <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                            <TextBlock Text="Voornaam" Padding="5"></TextBlock>
+                            <TextBox x:ConnectionId='11' x:Name="voornaam" PlaceholderText="Geef hier uw voornaam in"></TextBox>
                         </StackPanel>
-                        <StackPanel Orientation="Horizontal" Padding="5">
+                        <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                             <TextBlock Text="Achternaam" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='9' x:Name="achternaam" PlaceholderText="Geef hier uw achternaam in"></TextBox>
+                            <TextBox x:ConnectionId='10' x:Name="achternaam" PlaceholderText="Geef hier uw achternaam in"></TextBox>
                         </StackPanel>
-                        <StackPanel Orientation="Horizontal" Padding="5">
-                            <TextBlock Text="Geboortedatum" Padding="5"></TextBlock>
-                            <DatePicker x:ConnectionId='8' x:Name="geboortedatum"></DatePicker>
+                            <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                                <TextBlock Text="Geboortedatum" Padding="5"></TextBlock>
+                            <DatePicker x:ConnectionId='9' x:Name="geboortedatum"></DatePicker>
                         </StackPanel>
-                        <StackPanel Orientation="Horizontal" Padding="5">
-                            <TextBlock Text="Adres" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='7' x:Name="adres" PlaceholderText="Straatnaam en nr" InputScope="EmailNameOrAddress"></TextBox>
+                            <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                                <TextBlock Text="Adres" Padding="5"></TextBlock>
+                            <TextBox x:ConnectionId='8' x:Name="adres" PlaceholderText="Straatnaam en nr" InputScope="EmailNameOrAddress"></TextBox>
                         </StackPanel>
-                        <StackPanel Orientation="Horizontal" Padding="5">
-                            <TextBlock Text="Email" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='6' x:Name="email" PlaceholderText="example@gmail.com" InputScope="EmailNameOrAddress"></TextBox>
+                            <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                                <TextBlock Text="Email" Padding="5"></TextBlock>
+                            <TextBox x:ConnectionId='7' x:Name="email" PlaceholderText="example@gmail.com" InputScope="EmailNameOrAddress"></TextBox>
                         </StackPanel>
 
-                        <StackPanel Orientation="Horizontal" Padding="5">
-                            <TextBlock Text="Gsm nummer" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='5' x:Name="gsmnummer" PlaceholderText="0477777777" InputScope="Number"></TextBox>
+                            <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                                <TextBlock Text="Gsm nummer" Padding="5"></TextBlock>
+                            <TextBox x:ConnectionId='6' x:Name="gsmnummer" PlaceholderText="0477777777" InputScope="Number"></TextBox>
                         </StackPanel>
-                    </StackPanel>
+                            <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                                <Button x:ConnectionId='5' Content="Verstuur"                       ></Button>
+                                
+                         </StackPanel>
+                        </StackPanel>
+                       
                 </Border>
             </StackPanel>
            
