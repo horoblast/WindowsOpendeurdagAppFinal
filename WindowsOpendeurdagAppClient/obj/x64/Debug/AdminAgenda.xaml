@@ -46,12 +46,78 @@
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                     <RelativePanel>
-                        <Image x:ConnectionId='5' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
-                        <Image x:ConnectionId='6' x:Name="adminlogout" Source="../Assets/logouticonPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"                            />
+                        <Image x:ConnectionId='8' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                        <Image x:ConnectionId='9' x:Name="adminlogout" Source="../Assets/logouticonPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"                            />
                     </RelativePanel>
                 </Border>
+                <StackPanel Orientation="Vertical">
+                    <RelativePanel Padding="10">
+                        <TextBlock x:ConnectionId='6' x:Name="agenda" Text="Agenda" FontSize="22" HorizontalAlignment="Left"></TextBlock>
+
+                        <Button x:ConnectionId='7' x:Name="addevent" HorizontalAlignment="Center"                          RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Add Event</Button>
+                    </RelativePanel>
+              
+                    
+                    <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*" />
+
+                                </Grid.RowDefinitions>
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Event</TextBlock>
+                                <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Plaats</TextBlock>
+                                <TextBlock Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">Doelgroep</TextBlock>
+                                <TextBlock Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">Datum</TextBlock>
+                                <TextBlock Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center">Tijd</TextBlock>
+                            </Grid>
+
+                            <ListView x:ConnectionId='5' x:Name="lvagenda">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate x:Name="datatemplate">
+                                        <Grid x:Name="lvagendagrid">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="1*" />
+                                                <ColumnDefinition Width="1*" />
+                                                <ColumnDefinition Width="1*" />
+                                                <ColumnDefinition Width="1*" />
+                                                <ColumnDefinition Width="1*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="1*" />
+                                            </Grid.RowDefinitions>
+                                            <TextBox x:Name="tbevent" TextWrapping="Wrap" Text="{Binding Name}"  HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+                                            <TextBox x:Name="tbplaats" TextWrapping="Wrap" Text="{Binding Adres}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+                                            <TextBox x:Name="tbdoelgroep" TextWrapping="Wrap" Text="{Binding ForWhom}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+                                            <TextBox x:Name="tbdatum" TextWrapping="Wrap" Text="{Binding DayOfEvent}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+                                            <TextBox x:Name="tbtijd" TextWrapping="Wrap" Text="{Binding Time}" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+                                        </Grid>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                                <ListView.ItemContainerStyle>
+                                    <Style TargetType="ListViewItem">
+                                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                    </Style>
+                                </ListView.ItemContainerStyle>
+                            </ListView>
+
+
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
             </StackPanel>
+            
         </Grid>
+        
+        
         
     </ScrollViewer>
 </Page>
