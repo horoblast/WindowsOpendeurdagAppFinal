@@ -46,13 +46,15 @@
                     <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left" Tapped="home_Tapped" ></Image>
                 </Border>
                 <StackPanel Orientation="Vertical">
-                    <Grid Width="400" Height="400">
-                    <Image x:Name="nieuwsBtn" IsDoubleTapEnabled="False" VerticalAlignment="Center"  Stretch="Uniform"/>
-                    </Grid>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock>Hier komt facebook</TextBlock>
-                    </StackPanel>
+                    <TextBlock Text="Nieuws" FontSize="22" HorizontalAlignment="Center"></TextBlock>
                 </StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                        <StackPanel Padding="10">
+                        <Image x:Name="nieuwsBtn" IsDoubleTapEnabled="False" VerticalAlignment="Center"  Stretch="none"/>
+                        </StackPanel>
+                    </Border>
+                
+
             </StackPanel>
         </Grid>
     </ScrollViewer>

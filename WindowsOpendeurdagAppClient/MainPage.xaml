@@ -40,6 +40,7 @@
                         <Setter Target="campus.Source" Value="../Assets/Desktop/Campus.png"></Setter>
                         <Setter Target="nieuws.Source" Value="../Assets/Desktop/Nieuws.jpg"></Setter>
                         <Setter Target="gegevens.Source" Value="../Assets/Desktop/Opendeurdag.jpg"></Setter>
+                        <Setter Target="agenda.Source" Value="Assets/Desktop/Agenda.png"></Setter>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
@@ -48,29 +49,44 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"></Image>
+                    <RelativePanel>
+                        <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"></Image>
+                        <Image x:Name="adminlogin" Source="../Assets/lockiconPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" Tapped="adminlogin_Tapped"/>
+                    </RelativePanel>
                 </Border>
-                <StackPanel x:Name="stack1" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
-                    <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped">
-                        <Image x:Name="bedrijf" Source="Assets/Tablet/BedrijfTablet.png" Stretch="None"></Image>
-                        <TextBlock Text="Bedrijf en Organisatie"></TextBlock>
+                <StackPanel Padding="10"></StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <StackPanel>
+                    <StackPanel x:Name="stack1" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
+                        <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped">
+                            <Image x:Name="bedrijf" Source="Assets/Tablet/BedrijfTablet.png" Stretch="None"></Image>
+                            <TextBlock Text="Bedrijf en Organisatie"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_1" >
+                            <Image x:Name="campus" Source="Assets/Tablet/CampusTablet.png" Stretch="None"></Image>
+                            <TextBlock Text="Campussen"></TextBlock>
+                        </StackPanel>
                     </StackPanel>
-                    <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_1" >
-                        <Image x:Name="campus" Source="Assets/Tablet/CampusTablet.png" Stretch="None"></Image>
-                        <TextBlock Text="Campussen"></TextBlock>
+                    <StackPanel x:Name="stack2" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20 0 20 20" >
+                        <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_2" >
+                            <Image x:Name="nieuws" Source="Assets/Tablet/NieuwsTablet.jpg" Stretch="None"></Image>
+                            <TextBlock Text="Nieuws"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_3" >
+                            <Image x:Name="gegevens" Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
+                            <TextBlock Text="Gegevens" ></TextBlock>
+                        </StackPanel>
                     </StackPanel>
-                </StackPanel>
-            <StackPanel x:Name="stack2" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
-                <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_2" >
-                        <Image x:Name="nieuws" Source="Assets/Tablet/NieuwsTablet.jpg" Stretch="None"></Image>
-                    <TextBlock Text="Nieuws"></TextBlock>
-                </StackPanel>
-                <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_3" >
-                        <Image x:Name="gegevens" Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
-                        <TextBlock Text="Gegevens" ></TextBlock>
+                        <StackPanel x:Name="stack3" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20 0 20 20" >
+                            <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_4" >
+                                <Image x:Name="agenda" Source="Assets/Tablet/AgendaTablet.png" Stretch="None"></Image>
+                                <TextBlock Text="Agenda"></TextBlock>
+                            </StackPanel>
+                        </StackPanel>
                     </StackPanel>
+                </Border>
             </StackPanel>
-        </StackPanel>
+            
     </Grid>
 </ScrollViewer>
 </Page>

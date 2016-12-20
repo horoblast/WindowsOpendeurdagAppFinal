@@ -92,6 +92,18 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminAgenda.xaml.cs">
+      <DependentUpon>AdminAgenda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGebruikersformulieren.xaml.cs">
+      <DependentUpon>AdminGebruikersformulieren.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.xaml.cs">
+      <DependentUpon>AdminLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda.xaml.cs">
+      <DependentUpon>Agenda.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -107,6 +119,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\CalendarEvent.cs" />
     <Compile Include="Models\GebruikerFormulier.cs" />
     <Compile Include="Nieuws.xaml.cs">
       <DependentUpon>Nieuws.xaml</DependentUpon>
@@ -121,6 +134,9 @@
     <Compile Include="Retailmanagement.xaml.cs">
       <DependentUpon>Retailmanagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Statistieken.xaml.cs">
+      <DependentUpon>Statistieken.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Toegepasteinformatica.xaml.cs">
       <DependentUpon>Toegepasteinformatica.xaml</DependentUpon>
     </Compile>
@@ -132,13 +148,21 @@
     <None Include="WindowsOpendeurdagAppClient_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Desktop\Agenda.png" />
     <Content Include="Assets\Desktop\Bedrijf.png" />
     <Content Include="Assets\Desktop\Campus.png" />
+    <Content Include="Assets\Desktop\gebruikersformulierenicon.png" />
     <Content Include="Assets\Desktop\Nieuws.jpg" />
     <Content Include="Assets\Desktop\Opendeurdag.jpg" />
+    <Content Include="Assets\Desktop\statistiekenicon.png" />
+    <Content Include="Assets\lockiconPhone.png" />
+    <Content Include="Assets\logouticonPhone.png" />
     <Content Include="Assets\Phone\HogentLogoMobile.png" />
+    <Content Include="Assets\skireis.jpg" />
+    <Content Include="Assets\Tablet\AgendaTablet.png" />
     <Content Include="Assets\Tablet\BedrijfTablet.png" />
     <Content Include="Assets\Tablet\CampusTablet.png" />
+    <Content Include="Assets\Tablet\gebruikersformuliereniconTablet.png" />
     <Content Include="Assets\Tablet\HogentLogoTablet.png" />
     <Content Include="Assets\Desktop\HogentLogo.png" />
     <Content Include="Assets\Tablet\NieuwsTablet.jpg" />
@@ -147,6 +171,8 @@
     <Content Include="Assets\Tablet\opl2Tablet.png" />
     <Content Include="Assets\Tablet\opl3RetailTablet.png" />
     <Content Include="Assets\Tablet\opl4Tablet.png" />
+    <Content Include="Assets\Tablet\statistiekeniconTablet.png" />
+    <Content Include="Assets\unitedcolorsofghent.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -161,6 +187,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AdminAgenda.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminGebruikersformulieren.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Agenda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Bedrijfsmanagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -192,6 +234,10 @@
     <Page Include="Retailmanagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Statistieken.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Toegepasteinformatica.xaml">
       <SubType>Designer</SubType>

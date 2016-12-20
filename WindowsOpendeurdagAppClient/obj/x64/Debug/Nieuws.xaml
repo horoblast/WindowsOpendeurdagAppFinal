@@ -43,8 +43,18 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:ConnectionId='5' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                      ></Image>
+                    <Image x:ConnectionId='6' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                      ></Image>
                 </Border>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Nieuws" FontSize="22" HorizontalAlignment="Center"></TextBlock>
+                </StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                        <StackPanel Padding="10">
+                        <Image x:ConnectionId='5' x:Name="nieuwsBtn" IsDoubleTapEnabled="False" VerticalAlignment="Center"  Stretch="none"/>
+                        </StackPanel>
+                    </Border>
+                
+
             </StackPanel>
         </Grid>
     </ScrollViewer>

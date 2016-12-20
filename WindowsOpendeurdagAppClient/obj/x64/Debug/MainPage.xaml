@@ -40,6 +40,7 @@
                         <Setter Target="campus.Source" Value="../Assets/Desktop/Campus.png"></Setter>
                         <Setter Target="nieuws.Source" Value="../Assets/Desktop/Nieuws.jpg"></Setter>
                         <Setter Target="gegevens.Source" Value="../Assets/Desktop/Opendeurdag.jpg"></Setter>
+                        <Setter Target="agenda.Source" Value="Assets/Desktop/Agenda.png"></Setter>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
@@ -48,29 +49,44 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:ConnectionId='15' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"></Image>
+                    <RelativePanel>
+                        <Image x:ConnectionId='18' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"></Image>
+                        <Image x:ConnectionId='19' x:Name="adminlogin" Source="../Assets/lockiconPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"                           />
+                    </RelativePanel>
                 </Border>
-                <StackPanel x:ConnectionId='5' x:Name="stack1" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
-                    <StackPanel x:ConnectionId='11' Orientation="Vertical" Padding="20"                           >
-                        <Image x:ConnectionId='14' x:Name="bedrijf" Source="Assets/Tablet/BedrijfTablet.png" Stretch="None"></Image>
-                        <TextBlock Text="Bedrijf en Organisatie"></TextBlock>
+                <StackPanel Padding="10"></StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <StackPanel>
+                    <StackPanel x:ConnectionId='5' x:Name="stack1" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
+                        <StackPanel x:ConnectionId='14' Orientation="Vertical" Padding="20"                           >
+                            <Image x:ConnectionId='17' x:Name="bedrijf" Source="Assets/Tablet/BedrijfTablet.png" Stretch="None"></Image>
+                            <TextBlock Text="Bedrijf en Organisatie"></TextBlock>
+                        </StackPanel>
+                        <StackPanel x:ConnectionId='15' Orientation="Vertical" Padding="20"                              >
+                            <Image x:ConnectionId='16' x:Name="campus" Source="Assets/Tablet/CampusTablet.png" Stretch="None"></Image>
+                            <TextBlock Text="Campussen"></TextBlock>
+                        </StackPanel>
                     </StackPanel>
-                    <StackPanel x:ConnectionId='12' Orientation="Vertical" Padding="20"                              >
-                        <Image x:ConnectionId='13' x:Name="campus" Source="Assets/Tablet/CampusTablet.png" Stretch="None"></Image>
-                        <TextBlock Text="Campussen"></TextBlock>
+                    <StackPanel x:ConnectionId='6' x:Name="stack2" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20 0 20 20" >
+                        <StackPanel x:ConnectionId='10' Orientation="Vertical" Padding="20"                              >
+                            <Image x:ConnectionId='13' x:Name="nieuws" Source="Assets/Tablet/NieuwsTablet.jpg" Stretch="None"></Image>
+                            <TextBlock Text="Nieuws"></TextBlock>
+                        </StackPanel>
+                        <StackPanel x:ConnectionId='11' Orientation="Vertical" Padding="20"                              >
+                            <Image x:ConnectionId='12' x:Name="gegevens" Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
+                            <TextBlock Text="Gegevens" ></TextBlock>
+                        </StackPanel>
                     </StackPanel>
-                </StackPanel>
-            <StackPanel x:ConnectionId='6' x:Name="stack2" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
-                <StackPanel x:ConnectionId='7' Orientation="Vertical" Padding="20"                              >
-                        <Image x:ConnectionId='10' x:Name="nieuws" Source="Assets/Tablet/NieuwsTablet.jpg" Stretch="None"></Image>
-                    <TextBlock Text="Nieuws"></TextBlock>
-                </StackPanel>
-                <StackPanel x:ConnectionId='8' Orientation="Vertical" Padding="20"                              >
-                        <Image x:ConnectionId='9' x:Name="gegevens" Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
-                        <TextBlock Text="Gegevens" ></TextBlock>
+                        <StackPanel x:ConnectionId='7' x:Name="stack3" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20 0 20 20" >
+                            <StackPanel x:ConnectionId='8' Orientation="Vertical" Padding="20"                              >
+                                <Image x:ConnectionId='9' x:Name="agenda" Source="Assets/Tablet/AgendaTablet.png" Stretch="None"></Image>
+                                <TextBlock Text="Agenda"></TextBlock>
+                            </StackPanel>
+                        </StackPanel>
                     </StackPanel>
+                </Border>
             </StackPanel>
-        </StackPanel>
+            
     </Grid>
 </ScrollViewer>
 </Page>

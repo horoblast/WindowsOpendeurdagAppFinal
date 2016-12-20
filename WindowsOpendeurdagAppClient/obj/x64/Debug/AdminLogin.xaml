@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="WindowsOpendeurdagAppClient.AdminLogin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsOpendeurdagAppClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='1' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='2' x:Name="VisualStateMobile">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="stack1.Orientation" Value="vertical"></Setter>
+                        <Setter Target="stack2.Orientation" Value="vertical"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:ConnectionId='3' x:Name="VisualStateTablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Tablet/HogentLogoTablet.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:ConnectionId='4' x:Name="VisualStateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Desktop/HogentLogo.png"></Setter>
+                        <Setter Target="statistieken.Source" Value="../Assets/Desktop/statistiekenicon.png"></Setter>
+                        <Setter Target="gebruikersformulieren.Source" Value="../Assets/Desktop/gebruikersformulierenicon.png"></Setter>
+                        <Setter Target="agenda.Source" Value="../Assets/Desktop/Agenda.png"></Setter>
+
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+
+        </VisualStateManager.VisualStateGroups>
+
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <StackPanel Orientation="Vertical" Padding="20">
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <RelativePanel>
+                        <Image x:ConnectionId='13' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"></Image>
+                        <Image x:ConnectionId='14' x:Name="adminlogout" Source="../Assets/logouticonPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"                            />
+                    </RelativePanel>
+                </Border>
+                <StackPanel x:ConnectionId='5' x:Name="stack1" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
+                    <StackPanel x:ConnectionId='9' Orientation="Vertical" Padding="20"                           >
+                        <Image x:ConnectionId='12' x:Name="statistieken" Source="Assets/Tablet/statistiekeniconTablet.png" Stretch="None" ></Image>
+                        <TextBlock Text="Statistieken" TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel x:ConnectionId='10' Orientation="Vertical" Padding="20"                              >
+                        <Image x:ConnectionId='11' x:Name="gebruikersformulieren" Source="Assets/Tablet/gebruikersformuliereniconTablet.png" Stretch="None"></Image>
+                        <TextBlock Text="Gebruikersformulieren" TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel x:ConnectionId='6' x:Name="stack2" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20" >
+                    <StackPanel x:ConnectionId='7' Orientation="Vertical" Padding="20"                             >
+                        <Image x:ConnectionId='8' x:Name="agenda" Source="Assets/Tablet/AgendaTablet.png" Stretch="None"></Image>
+                        <TextBlock Text="Agenda" TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        
+    </ScrollViewer>
+</Page>
+

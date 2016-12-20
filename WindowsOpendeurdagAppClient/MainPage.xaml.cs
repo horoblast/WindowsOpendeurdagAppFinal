@@ -46,5 +46,13 @@ namespace WindowsOpendeurdagAppClient
         {
             this.Frame.Navigate(typeof(GebruikerFormuliers), null);
         }
+        private void StackPanel_Tapped_4(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Agenda), null);
+        }
+        private void adminlogin_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AdminLogin), null);
+        }
     }
 }

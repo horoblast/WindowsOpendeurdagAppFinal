@@ -49,7 +49,7 @@
                 <StackPanel Padding="10"></StackPanel>
                 <Border BorderBrush="Black" BorderThickness="2">
                     <StackPanel Orientation="Vertical">
-                        <StackPanel Orientation="Vertical" Background="Aqua" Padding="20">
+                        <StackPanel Orientation="Vertical" Background="#c9dced" Padding="20">
                             <TextBlock Text="Faculteit Bedrijf en Organisatie" FontSize="22" HorizontalAlignment="Center"></TextBlock>
                             <TextBlock  HorizontalAlignment="Center" TextWrapping="Wrap" Text="Word ondernemer van je eigen succes. Wil je aan de slag in de bedrijfswereld? Durf je verantwoordelijkheden op jou nemen en heb je zin voor initiatief? Bekijk dan onze opleidingen die nauw aansluiten bij de bedrijfswereld."></TextBlock>
                         </StackPanel>
