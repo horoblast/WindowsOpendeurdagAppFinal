@@ -256,3 +256,48 @@ C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\AdminGebruikersformulieren.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\AdminLogin.xbf
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Statistieken.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Aalst.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Bijloke.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Grote Sikkel.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Ledeganck.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Melle.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Mercator.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Schoonmeersen.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Vesalius.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Aalst.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Aalst.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Bijloke.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Bijloke.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Grote Sikkel.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Grote Sikkel.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Ledeganck.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Ledeganck.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Melle.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Melle.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Mercator.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Mercator.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Schoonmeersen.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Schoonmeersen.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Vesalius.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Vesalius.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Bijloke.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Grote Sikkel.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Ledeganck.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Melle.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Mercator.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Schoonmeersen.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Aalst.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Vesalius.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Bijloke.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Grote Sikkel.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Ledeganck.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Melle.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Mercator.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Schoonmeersen.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Aalst.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\Vesalius.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\SchoonmeersenRondleiding.g.i.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\SchoonmeersenRondleiding.g.cs
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\SchoonmeersenRondleiding.xaml
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\SchoonmeersenRondleiding.xbf
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\SchoonmeersenRondleiding.xbf

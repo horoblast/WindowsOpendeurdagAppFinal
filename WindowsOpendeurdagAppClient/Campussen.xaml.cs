@@ -31,5 +31,46 @@ namespace WindowsOpendeurdagAppClient
         {
             this.Frame.Navigate(typeof(MainPage), null);
         }
+
+        private void StackPanel_Tapped_Vesalius(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Vesalius), null);
+        }
+
+        private void StackPanel_Tapped_Schoonmeersen(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Schoonmeersen), null);
+        }
+
+        private void StackPanel_Tapped_GroteSikkel(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Grote_Sikkel), null);
+        }
+        private void StackPanel_Tapped_Melle(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Melle), null);
+        }
+
+        private void StackPanel_Tapped_Ledeganck(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Ledeganck), null);
+        }
+
+        private void StackPanel_Tapped_Mercator(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Mercator), null);
+        }
+
+        private void StackPanel_Tapped_Bijloke(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Bijloke), null);
+        }
+
+        private void StackPanel_Tapped_Aalst(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Aalst), null);
+        }
+
+
     }
 }

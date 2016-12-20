@@ -92,6 +92,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aalst.xaml.cs">
+      <DependentUpon>Aalst.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdminAgenda.xaml.cs">
       <DependentUpon>AdminAgenda.xaml</DependentUpon>
     </Compile>
@@ -110,14 +113,29 @@
     <Compile Include="Bedrijfsmanagement.xaml.cs">
       <DependentUpon>Bedrijfsmanagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Bijloke.xaml.cs">
+      <DependentUpon>Bijloke.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Campussen.xaml.cs">
       <DependentUpon>Campussen.xaml</DependentUpon>
     </Compile>
     <Compile Include="GebruikerFormuliers.xaml.cs">
       <DependentUpon>GebruikerFormuliers.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Grote Sikkel.xaml.cs">
+      <DependentUpon>Grote Sikkel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ledeganck.xaml.cs">
+      <DependentUpon>Ledeganck.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Melle.xaml.cs">
+      <DependentUpon>Melle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mercator.xaml.cs">
+      <DependentUpon>Mercator.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\CalendarEvent.cs" />
     <Compile Include="Models\GebruikerFormulier.cs" />
@@ -134,11 +152,20 @@
     <Compile Include="Retailmanagement.xaml.cs">
       <DependentUpon>Retailmanagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Schoonmeersen.xaml.cs">
+      <DependentUpon>Schoonmeersen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SchoonmeersenRondleiding.xaml.cs">
+      <DependentUpon>SchoonmeersenRondleiding.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Statistieken.xaml.cs">
       <DependentUpon>Statistieken.xaml</DependentUpon>
     </Compile>
     <Compile Include="Toegepasteinformatica.xaml.cs">
       <DependentUpon>Toegepasteinformatica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vesalius.xaml.cs">
+      <DependentUpon>Vesalius.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +175,8 @@
     <None Include="WindowsOpendeurdagAppClient_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Aalst.png" />
+    <Content Include="Assets\Bijloke.png" />
     <Content Include="Assets\Desktop\Agenda.png" />
     <Content Include="Assets\Desktop\Bedrijf.png" />
     <Content Include="Assets\Desktop\Campus.png" />
@@ -155,9 +184,14 @@
     <Content Include="Assets\Desktop\Nieuws.jpg" />
     <Content Include="Assets\Desktop\Opendeurdag.jpg" />
     <Content Include="Assets\Desktop\statistiekenicon.png" />
+    <Content Include="Assets\GroteSikkel.png" />
+    <Content Include="Assets\Ledeganck.png" />
     <Content Include="Assets\lockiconPhone.png" />
     <Content Include="Assets\logouticonPhone.png" />
+    <Content Include="Assets\Melle.png" />
     <Content Include="Assets\Phone\HogentLogoMobile.png" />
+    <Content Include="Assets\Schoonmeersen.png" />
+    <Content Include="Assets\SchoonmeersenPlan.JPG" />
     <Content Include="Assets\skireis.jpg" />
     <Content Include="Assets\Tablet\AgendaTablet.png" />
     <Content Include="Assets\Tablet\BedrijfTablet.png" />
@@ -173,6 +207,7 @@
     <Content Include="Assets\Tablet\opl4Tablet.png" />
     <Content Include="Assets\Tablet\statistiekeniconTablet.png" />
     <Content Include="Assets\unitedcolorsofghent.jpg" />
+    <Content Include="Assets\Vesalius.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -187,6 +222,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Aalst.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AdminAgenda.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -207,6 +246,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Bijloke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Campussen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -215,9 +258,25 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Grote Sikkel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ledeganck.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Melle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mercator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Nieuws.xaml">
       <SubType>Designer</SubType>
@@ -235,11 +294,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Schoonmeersen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SchoonmeersenRondleiding.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Statistieken.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Toegepasteinformatica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vesalius.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -38,19 +38,24 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
-      <RootProperty Name="RowDefinitions" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="Background" />
       <RootEvent Name="Tapped" />
     </RootType>
@@ -60,12 +65,17 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Child" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
-      <RootProperty Name="Children" />
-      <RootMethod Name="GetAlignRightWithPanel" />
-      <RootMethod Name="SetAlignRightWithPanel" />
-      <RootMethod Name="GetAlignBottomWithPanel" />
-      <RootMethod Name="SetAlignBottomWithPanel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -75,20 +85,16 @@
       <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Tapped" />
     </RootType>
+    <RootType FullName="WindowsOpendeurdagAppClient.Aalst" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetAlignRightWithPanel" />
+      <RootMethod Name="SetAlignRightWithPanel" />
+      <RootMethod Name="GetAlignBottomWithPanel" />
+      <RootMethod Name="SetAlignBottomWithPanel" />
+    </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.AdminAgenda" />
     <RootType FullName="WindowsOpendeurdagAppClient.AdminGebruikersformulieren" />
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Text" />
-      <RootProperty Name="TextAlignment" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Inlines" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Padding" />
-      <RootProperty Name="Foreground" />
-    </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.AdminLogin" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemTemplate" />
@@ -100,9 +106,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
@@ -110,10 +113,12 @@
     </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.Agenda" />
     <RootType FullName="WindowsOpendeurdagAppClient.Bedrijfsmanagement" />
+    <RootType FullName="WindowsOpendeurdagAppClient.Bijloke" />
     <RootType FullName="WindowsOpendeurdagAppClient.Campussen" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
       <RootEvent Name="Click" />
+      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="SelectedIndex" />
@@ -126,12 +131,19 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker" />
     <RootType FullName="WindowsOpendeurdagAppClient.GebruikerFormuliers" />
+    <RootType FullName="WindowsOpendeurdagAppClient.Grote_Sikkel" />
+    <RootType FullName="WindowsOpendeurdagAppClient.Ledeganck" />
     <RootType FullName="WindowsOpendeurdagAppClient.MainPage" />
+    <RootType FullName="WindowsOpendeurdagAppClient.Melle" />
+    <RootType FullName="WindowsOpendeurdagAppClient.Mercator" />
     <RootType FullName="WindowsOpendeurdagAppClient.Nieuws" />
     <RootType FullName="WindowsOpendeurdagAppClient.Officemanagement" />
     <RootType FullName="WindowsOpendeurdagAppClient.OpleidingenFBO" />
     <RootType FullName="WindowsOpendeurdagAppClient.Retailmanagement" />
+    <RootType FullName="WindowsOpendeurdagAppClient.Schoonmeersen" />
+    <RootType FullName="WindowsOpendeurdagAppClient.SchoonmeersenRondleiding" />
     <RootType FullName="WindowsOpendeurdagAppClient.Statistieken" />
     <RootType FullName="WindowsOpendeurdagAppClient.Toegepasteinformatica" />
+    <RootType FullName="WindowsOpendeurdagAppClient.Vesalius" />
   </Roots.RootTypes>
 </Roots>

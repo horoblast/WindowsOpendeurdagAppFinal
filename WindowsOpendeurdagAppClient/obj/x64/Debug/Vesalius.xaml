@@ -1,0 +1,102 @@
+﻿<Page
+    x:Class="WindowsOpendeurdagAppClient.Vesalius"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsOpendeurdagAppClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='1' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='2' x:Name="VisualStateMobile">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="bachelors.Orientation" Value="vertical"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:ConnectionId='3' x:Name="VisualStateTablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Tablet/HogentLogoTablet.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:ConnectionId='4' x:Name="VisualStateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="home.Source" Value="../Assets/Desktop/HogentLogo.png"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+
+        </VisualStateManager.VisualStateGroups>
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="49*"/>
+                <RowDefinition Height="271*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Vertical" Padding="20" Margin="10" Grid.RowSpan="2">
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <Image x:ConnectionId='6' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                </Border>
+                <StackPanel Padding="10"></StackPanel>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Vesalius" FontSize="22" HorizontalAlignment="Center"></TextBlock>
+                        <StackPanel x:ConnectionId='5' Orientation="Horizontal" HorizontalAlignment="Center" x:Name="bachelors">
+                            <StackPanel Padding="20" >
+                                <TextBlock Text="Professioneel gerichte bachelor" HorizontalAlignment="Center" FontSize="18"></TextBlock>
+                                <TextBlock></TextBlock>
+                                <TextBlock Text="biomedische laboratoriumtechnologie" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="ergotherapie" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="logopedie en audiologie" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="onderwijs: kleuteronderwijs" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="verpleegkunde" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="verpleegkunde brugopleiding " HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="voedings en dieetkunde" HorizontalAlignment="Center"></TextBlock>
+
+                                <TextBlock></TextBlock>
+                                <TextBlock Text="Bachelors na bachelor" HorizontalAlignment="Center" FontSize="18"></TextBlock>
+                                <TextBlock></TextBlock>
+                                <TextBlock Text="intensieve zorgen en spoedgevallenzorg" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock></TextBlock>
+
+                                <TextBlock Text="Postgraduaten" HorizontalAlignment="Center" FontSize="18"></TextBlock>
+                                <TextBlock></TextBlock>
+                                <TextBlock Text="verpleegkundige gespecialiseerd in de geriatrie" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock></TextBlock>
+                            </StackPanel>
+                            <StackPanel Padding="20" >
+                                <TextBlock Text="Adres" HorizontalAlignment="Center" FontSize="18"></TextBlock>
+                                <TextBlock></TextBlock>
+                                <TextBlock Text="Keramiekstraat 80" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="9000 Gent" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="09 243 23 30" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock></TextBlock>
+                                <TextBlock Text="Gebouwen" HorizontalAlignment="Center" FontSize="18"></TextBlock>
+                                <TextBlock></TextBlock>
+                                <TextBlock Text="Gebouw Vesalius" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="(GVESA)" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock></TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel>
+                            <Image Source="Assets/Vesalius.png" Stretch="Uniform"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>
+

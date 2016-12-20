@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-20T15:34:16.559</Modified>
+      <Modified>2016-12-20T20:20:32.992</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.exe">
       <PackagePath>entrypoint\WindowsOpendeurdagAppClient.exe</PackagePath>
-      <Modified>2016-12-20T15:34:15.159</Modified>
+      <Modified>2016-12-20T20:20:26.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -452,6 +452,14 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Aalst.png">
+      <PackagePath>Assets\Aalst.png</PackagePath>
+      <Modified>2016-12-20T18:17:06.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Bijloke.png">
+      <PackagePath>Assets\Bijloke.png</PackagePath>
+      <Modified>2016-12-20T18:44:13.829</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Agenda.png">
       <PackagePath>Assets\Desktop\Agenda.png</PackagePath>
       <Modified>2016-12-20T13:39:17.922</Modified>
@@ -472,6 +480,14 @@
       <PackagePath>Assets\Desktop\statistiekenicon.png</PackagePath>
       <Modified>2016-12-20T15:25:13.501</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\GroteSikkel.png">
+      <PackagePath>Assets\GroteSikkel.png</PackagePath>
+      <Modified>2016-12-20T19:38:32.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Ledeganck.png">
+      <PackagePath>Assets\Ledeganck.png</PackagePath>
+      <Modified>2016-12-20T19:06:48.419</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\lockiconPhone.png">
       <PackagePath>Assets\lockiconPhone.png</PackagePath>
       <Modified>2016-12-20T15:34:08.497</Modified>
@@ -480,9 +496,17 @@
       <PackagePath>Assets\logouticonPhone.png</PackagePath>
       <Modified>2016-12-20T15:29:09.487</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Melle.png">
+      <PackagePath>Assets\Melle.png</PackagePath>
+      <Modified>2016-12-20T19:17:51.603</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Phone\HogentLogoMobile.png">
       <PackagePath>Assets\Phone\HogentLogoMobile.png</PackagePath>
       <Modified>2016-12-16T21:04:38.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Schoonmeersen.png">
+      <PackagePath>Assets\Schoonmeersen.png</PackagePath>
+      <Modified>2016-12-20T19:42:57.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\AgendaTablet.png">
       <PackagePath>Assets\Tablet\AgendaTablet.png</PackagePath>
@@ -528,6 +552,10 @@
       <PackagePath>Assets\Tablet\statistiekeniconTablet.png</PackagePath>
       <Modified>2016-12-20T15:26:27.009</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Vesalius.png">
+      <PackagePath>Assets\Vesalius.png</PackagePath>
+      <Modified>2016-12-20T20:03:12.098</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T15:30:08.000</Modified>
@@ -570,6 +598,10 @@
       <PackagePath>Assets\Desktop\Opendeurdag.jpg</PackagePath>
       <Modified>2016-12-17T19:34:26.154</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\SchoonmeersenPlan.JPG">
+      <PackagePath>Assets\SchoonmeersenPlan.JPG</PackagePath>
+      <Modified>2016-12-20T20:17:58.408</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\skireis.jpg">
       <PackagePath>Assets\skireis.jpg</PackagePath>
       <Modified>2016-12-20T13:16:20.222</Modified>
@@ -592,7 +624,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.xr.xml">
       <PackagePath>WindowsOpendeurdagAppClient.xr.xml</PackagePath>
-      <Modified>2016-12-20T15:31:47.480</Modified>
+      <Modified>2016-12-20T20:18:35.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -601,11 +633,11 @@
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-20T15:34:16.072</Modified>
+      <Modified>2016-12-20T20:20:31.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\WindowsOpendeurdagAppClient.exe">
       <PackagePath>WindowsOpendeurdagAppClient.exe</PackagePath>
-      <Modified>2016-12-20T15:34:16.556</Modified>
+      <Modified>2016-12-20T20:20:32.989</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
