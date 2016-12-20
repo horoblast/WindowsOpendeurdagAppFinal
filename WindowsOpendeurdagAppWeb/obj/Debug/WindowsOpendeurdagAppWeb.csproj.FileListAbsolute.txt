@@ -138,3 +138,5 @@ C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.Migrations.Initial12.resources
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.Migrations.Initial13.resources
 C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.Migrations.Initial14.resources
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.csprojResolveAssemblyReference.cache
+C:\Users\jonas\Documents\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.Migrations.Initial15.resources

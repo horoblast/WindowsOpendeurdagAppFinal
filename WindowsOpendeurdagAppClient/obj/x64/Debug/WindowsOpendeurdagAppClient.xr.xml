@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Richting" />
+    <RootPropertyPathName Name="Campus" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="Telnr" />
+    <RootPropertyPathName Name="Straat" />
+    <RootPropertyPathName Name="Geboortedatum" />
+    <RootPropertyPathName Name="Achternaam" />
+    <RootPropertyPathName Name="Voornaam" />
     <RootPropertyPathName Name="Time" />
     <RootPropertyPathName Name="DayOfEvent" />
     <RootPropertyPathName Name="ForWhom" />
@@ -43,6 +51,8 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
@@ -69,9 +79,9 @@
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="TextAlignment" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="TextAlignment" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Padding" />
@@ -94,8 +104,6 @@
       <RootMethod Name="SetAlignBottomWithPanel" />
     </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.AdminAgenda" />
-    <RootType FullName="WindowsOpendeurdagAppClient.AdminGebruikersformulieren" />
-    <RootType FullName="WindowsOpendeurdagAppClient.AdminLogin" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="ItemContainerStyle" />
@@ -111,12 +119,15 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="HorizontalContentAlignment" />
     </RootType>
+    <RootType FullName="WindowsOpendeurdagAppClient.AdminGebruikersformulieren" />
+    <RootType FullName="WindowsOpendeurdagAppClient.AdminLogin" />
     <RootType FullName="WindowsOpendeurdagAppClient.Agenda" />
     <RootType FullName="WindowsOpendeurdagAppClient.Bedrijfsmanagement" />
     <RootType FullName="WindowsOpendeurdagAppClient.Bijloke" />
     <RootType FullName="WindowsOpendeurdagAppClient.Campussen" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Click" />
       <RootEvent Name="Tapped" />
     </RootType>

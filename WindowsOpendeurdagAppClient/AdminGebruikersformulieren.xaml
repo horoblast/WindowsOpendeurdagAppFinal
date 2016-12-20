@@ -16,8 +16,7 @@
                         <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="stack1.Orientation" Value="vertical"></Setter>
-                        <Setter Target="stack2.Orientation" Value="vertical"></Setter>
+
                     </VisualState.Setters>
                 </VisualState>
 
@@ -67,15 +66,17 @@
                                                 <RowDefinition Height="1*" />
                                                 <RowDefinition Height="1*" />
                                                 <RowDefinition Height="1*" />
+                                                <RowDefinition Height="1*" />
                                             </Grid.RowDefinitions>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Voornaam}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Achternaam}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Geboortedatum}" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Straat}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Telnr}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Email}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Campus}" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Richting}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Achternaam}" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Geboortedatum}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Straat}" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Telnr}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Email}" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Campus}" Grid.Column="1"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Richting}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                         </Grid>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
