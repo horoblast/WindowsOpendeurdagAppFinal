@@ -74,7 +74,7 @@
                         </StackPanel>
                         <StackPanel Orientation="Vertical" Padding="20" Tapped="StackPanel_Tapped_3" >
                             <Image x:Name="gegevens" Source="Assets/Tablet/OpendeurdagTablet.jpg" Stretch="None"></Image>
-                            <TextBlock Text="Gegevens" ></TextBlock>
+                            <TextBlock Text="Gebruikersgegevens" ></TextBlock>
                         </StackPanel>
                     </StackPanel>
                         <StackPanel x:Name="stack3" Orientation="Horizontal" HorizontalAlignment="Center" Padding="20 0 20 20" >

@@ -105,6 +105,9 @@
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                                 <Button Content="Verstuur" Click="Button_Click" ></Button>
                             </StackPanel>
+                            <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                                <TextBlock x:Name="successmessage" Visibility="Collapsed" Text="Je gegevens zijn goed verstuurd!"/>
+                            </StackPanel>
                         </StackPanel>
                        
                 </Border>

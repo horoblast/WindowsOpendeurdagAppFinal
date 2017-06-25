@@ -7,6 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Page.Resources>
+        <local:StringFormatConverter x:Name="StringFormatConverter"/>
+    </Page.Resources>
+    
     <ScrollViewer VerticalScrollBarVisibility="Auto">
 
         <VisualStateManager.VisualStateGroups>
@@ -86,7 +90,7 @@
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Name}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Adres}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding ForWhom}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding DayOfEvent}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding DayOfEvent, Converter={StaticResource StringFormatConverter}, ConverterParameter=\{0:dd/MM/yyyy\}}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Time}" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                         </Grid>
                                     </DataTemplate>

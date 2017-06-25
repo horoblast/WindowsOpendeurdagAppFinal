@@ -79,7 +79,7 @@
                             <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_2" >
                                 <Image Source="Assets/Tablet/opl3RetailTablet.png" Stretch="None"></Image>
                                 <TextBlock Text="Retailmanagement" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Text="Professionele bachelor" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="Professionele bachelor (niet in Aalst!)" HorizontalAlignment="Center"></TextBlock>
                             </StackPanel>
                             <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_3">
                                 <Image Source="Assets/Tablet/opl4Tablet.png" Stretch="None"/>

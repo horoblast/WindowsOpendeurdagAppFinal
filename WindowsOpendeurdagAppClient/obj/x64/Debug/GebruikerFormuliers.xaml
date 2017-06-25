@@ -40,7 +40,7 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical" Padding="5">
             <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                <Image x:ConnectionId='15' x:Name="home" Source="Assets/Phone/HogentLogoMobile.png" Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                <Image x:ConnectionId='16' x:Name="home" Source="Assets/Phone/HogentLogoMobile.png" Stretch="None" HorizontalAlignment="Left"                     ></Image>
             </Border>
            
             <StackPanel Orientation="Vertical">
@@ -52,33 +52,33 @@
                     <StackPanel Orientation="Vertical" Padding="5">
                         <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                             <TextBlock Text="Voornaam" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='14' x:Name="voornaam" PlaceholderText="Geef hier uw voornaam in"></TextBox>
+                            <TextBox x:ConnectionId='15' x:Name="voornaam" PlaceholderText="Geef hier uw voornaam in"></TextBox>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                             <TextBlock Text="Achternaam" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='13' x:Name="achternaam" PlaceholderText="Geef hier uw achternaam in"></TextBox>
+                            <TextBox x:ConnectionId='14' x:Name="achternaam" PlaceholderText="Geef hier uw achternaam in"></TextBox>
                         </StackPanel>
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                                 <TextBlock Text="Geboortedatum" Padding="5"></TextBlock>
-                            <DatePicker x:ConnectionId='12' x:Name="geboortedatum"></DatePicker>
+                            <DatePicker x:ConnectionId='13' x:Name="geboortedatum"></DatePicker>
                         </StackPanel>
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                                 <TextBlock Text="Adres" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='11' x:Name="adres" PlaceholderText="Straatnaam en nr" InputScope="EmailNameOrAddress"></TextBox>
+                            <TextBox x:ConnectionId='12' x:Name="adres" PlaceholderText="Straatnaam en nr" InputScope="EmailNameOrAddress"></TextBox>
                         </StackPanel>
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                                 <TextBlock Text="Email" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='10' x:Name="email" PlaceholderText="example@gmail.com" InputScope="EmailNameOrAddress"></TextBox>
+                            <TextBox x:ConnectionId='11' x:Name="email" PlaceholderText="example@gmail.com" InputScope="EmailNameOrAddress"></TextBox>
                         </StackPanel>
 
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                                 <TextBlock Text="Gsm nummer" Padding="5"></TextBlock>
-                            <TextBox x:ConnectionId='9' x:Name="gsmnummer" PlaceholderText="0477777777" InputScope="Number"></TextBox>
+                            <TextBox x:ConnectionId='10' x:Name="gsmnummer" PlaceholderText="0477777777" InputScope="Number"></TextBox>
                         </StackPanel>
 
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                                 <TextBlock Text="Opleiding" Padding="5"></TextBlock>
-                                <ComboBox x:ConnectionId='8' x:Name="opleiding" SelectedIndex="0">
+                                <ComboBox x:ConnectionId='9' x:Name="opleiding" SelectedIndex="0">
                                     <x:String>Bedrijfsmanagement</x:String>
                                     <x:String>Officemanagement</x:String>
                                     <x:String>Retailmanagement</x:String>
@@ -88,7 +88,7 @@
                         
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
                                 <TextBlock Text="Campus" Padding="5"></TextBlock>
-                                <ComboBox x:ConnectionId='7' x:Name="campus" SelectedIndex="0">
+                                <ComboBox x:ConnectionId='8' x:Name="campus" SelectedIndex="0">
                                     <x:String>Aalst</x:String>
                                     <x:String>Bijloke</x:String>
                                     <x:String>Mercator</x:String>
@@ -100,10 +100,13 @@
                                 </ComboBox>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
-                                <TextBlock x:ConnectionId='6' x:Name="error" Foreground="Red"></TextBlock>
+                                <TextBlock x:ConnectionId='7' x:Name="error" Foreground="Red"></TextBlock>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
-                                <Button x:ConnectionId='5' Content="Verstuur"                      ></Button>
+                                <Button x:ConnectionId='6' Content="Verstuur"                      ></Button>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Padding="5" HorizontalAlignment="Center">
+                                <TextBlock x:ConnectionId='5' x:Name="successmessage" Visibility="Collapsed" Text="Je gegevens zijn goed verstuurd!"/>
                             </StackPanel>
                         </StackPanel>
                        

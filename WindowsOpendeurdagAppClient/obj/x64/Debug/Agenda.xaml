@@ -7,11 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Page.Resources>
+        <local:StringFormatConverter x:ConnectionId='1' x:Name="StringFormatConverter"/>
+    </Page.Resources>
+    
     <ScrollViewer VerticalScrollBarVisibility="Auto">
 
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:ConnectionId='1' x:Name="VisualStateGroup">
-                <VisualState x:ConnectionId='2' x:Name="VisualStateMobile">
+            <VisualStateGroup x:ConnectionId='2' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='3' x:Name="VisualStateMobile">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
@@ -19,7 +23,7 @@
                     </VisualState.Setters>
                 </VisualState>
 
-                <VisualState x:ConnectionId='3' x:Name="VisualStateTablet">
+                <VisualState x:ConnectionId='4' x:Name="VisualStateTablet">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
@@ -28,7 +32,7 @@
                     </VisualState.Setters>
                 </VisualState>
 
-                <VisualState x:ConnectionId='4' x:Name="VisualStateDesktop">
+                <VisualState x:ConnectionId='5' x:Name="VisualStateDesktop">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="800"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
@@ -43,7 +47,7 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:ConnectionId='6' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                    <Image x:ConnectionId='7' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
                 </Border>
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Evenementen" FontSize="22" HorizontalAlignment="Center"></TextBlock>
@@ -69,7 +73,7 @@
                                 <TextBlock Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center">Tijd</TextBlock>
                             </Grid>
 
-                            <ListView x:ConnectionId='5' x:Name="lvagenda">
+                            <ListView x:ConnectionId='6' x:Name="lvagenda">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <Grid>
@@ -86,7 +90,7 @@
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Name}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Adres}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding ForWhom}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding DayOfEvent}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding DayOfEvent, Converter={StaticResource StringFormatConverter}, ConverterParameter=\{0:dd/MM/yyyy\}}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Time}" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                         </Grid>
                                     </DataTemplate>

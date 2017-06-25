@@ -63,7 +63,12 @@ namespace WindowsOpendeurdagAppClient
             campus.SelectedIndex = 0;
             opleiding.SelectedIndex = 0;
             geboortedatum.Date = DateTime.Now;
-                error.Text = "";
+            error.Text = "";
+
+                //successmessage
+                successmessage.Visibility = Visibility.Visible;
+
+
             }
             catch (Exception ex)
             {

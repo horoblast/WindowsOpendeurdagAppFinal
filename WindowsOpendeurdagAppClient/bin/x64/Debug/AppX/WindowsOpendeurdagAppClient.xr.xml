@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Time" />
     <RootPropertyPathName Name="DayOfEvent" />
@@ -21,6 +24,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="VerticalScrollBarVisibility" />
@@ -85,6 +89,8 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
@@ -96,6 +102,7 @@
       <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.Aalst" />
+    <RootType FullName="WindowsOpendeurdagAppClient.StringFormatConverter" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="Padding" />
       <RootProperty Name="Children" />
@@ -122,7 +129,11 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="InputScope" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Converter" />
+      <RootProperty Name="ConverterParameter" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="HorizontalContentAlignment" />

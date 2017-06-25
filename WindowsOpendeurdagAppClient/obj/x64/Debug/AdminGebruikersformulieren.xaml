@@ -7,11 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Page.Resources>
+        <local:StringFormatConverter x:ConnectionId='1' x:Name="StringFormatConverter"/>
+    </Page.Resources>
+    
     <ScrollViewer VerticalScrollBarVisibility="Auto">
 
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:ConnectionId='1' x:Name="VisualStateGroup">
-                <VisualState x:ConnectionId='2' x:Name="VisualStateMobile">
+            <VisualStateGroup x:ConnectionId='2' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='3' x:Name="VisualStateMobile">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
@@ -20,7 +24,7 @@
                     </VisualState.Setters>
                 </VisualState>
 
-                <VisualState x:ConnectionId='3' x:Name="VisualStateTablet">
+                <VisualState x:ConnectionId='4' x:Name="VisualStateTablet">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
@@ -29,7 +33,7 @@
                     </VisualState.Setters>
                 </VisualState>
 
-                <VisualState x:ConnectionId='4' x:Name="VisualStateDesktop">
+                <VisualState x:ConnectionId='5' x:Name="VisualStateDesktop">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="800"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
@@ -45,14 +49,14 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:ConnectionId='6' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                    <Image x:ConnectionId='7' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
                 </Border>
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Formulieren" FontSize="22" HorizontalAlignment="Center"></TextBlock>
 
                     <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                         <StackPanel>
-                            <ListView x:ConnectionId='5' x:Name="lvformulieren">
+                            <ListView x:ConnectionId='6' x:Name="lvformulieren">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <Grid>
@@ -70,8 +74,8 @@
                                             </Grid.RowDefinitions>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Voornaam}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Achternaam}" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Geboortedatum}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Geboortedatum, Converter={StaticResource StringFormatConverter}, ConverterParameter=\{0:dd/MM/yyyy\}}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Straat}" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Telnr}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Email}" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>

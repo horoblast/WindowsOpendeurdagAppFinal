@@ -50,51 +50,66 @@
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced" >
                     <StackPanel >
                         <StackPanel HorizontalAlignment="Center">
-                            <TextBlock Text="Campussen" Padding="10"></TextBlock>
+                            <TextBlock Text="Campussen" Padding="10" FontSize="48" FontWeight="Bold"></TextBlock>
                         </StackPanel>
 
                         <StackPanel>
                             <StackPanel Orientation="Horizontal" x:Name="campussen" Padding="10 10 10 10" HorizontalAlignment="Center">
-                                
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                                     <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Aalst">
                                         <TextBlock Text="Aalst" HorizontalAlignment="Center"></TextBlock>
                                     </StackPanel>
-                              
-                                
-                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Bijloke" >
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Aalst">
                                         <TextBlock Text="Bijloke" HorizontalAlignment="Center"></TextBlock>
                                     </StackPanel>
-        
-                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Mercator" >
+                                </Border>
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Aalst">
                                         <TextBlock Text="Mercator" HorizontalAlignment="Center"></TextBlock>
                                     </StackPanel>
-                               
-           
-                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Ledeganck" >
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Aalst">
                                         <TextBlock Text="Ledeganck" HorizontalAlignment="Center"></TextBlock>
                                     </StackPanel>
-                         
+                                </Border>
+
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" x:Name="campussen2" Padding="10 0 10 10" HorizontalAlignment="Center">
-                                
-                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Melle">
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Aalst">
                                         <TextBlock Text="Melle" HorizontalAlignment="Center"></TextBlock>
                                     </StackPanel>
-                             
-                        
-                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_GroteSikkel" >
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Aalst">
                                         <TextBlock Text="Grote Sikkel" HorizontalAlignment="Center"></TextBlock>
                                     </StackPanel>
-                         
-                      
-                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Schoonmeersen" >
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Aalst">
                                         <TextBlock Text="Schoonmeersen" HorizontalAlignment="Center"></TextBlock>
                                     </StackPanel>
-                        
-                           
-                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Vesalius" >
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Aalst">
                                         <TextBlock Text="Vesalius" HorizontalAlignment="Center"></TextBlock>
                                     </StackPanel>
+                                </Border>
                         
                             </StackPanel>
                         </StackPanel>
