@@ -25,7 +25,9 @@ namespace WindowsOpendeurdagAppClient
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class AdminAgenda : Page
+
     {
+
         public AdminAgenda()
         {
             this.InitializeComponent();
@@ -72,7 +74,12 @@ namespace WindowsOpendeurdagAppClient
 
         private async void addevent_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            // aanmaken invoervelden van het calendar event
             var calevent = new CalendarEvent() { Name = "AddName", Adres = "AddAdres", ForWhom = "AddForWhom", DayOfEvent = new DateTime(2016, 12, 31, 0, 0, 0), Time = "AddTime" };
+
+            confirmEvent.IsEnabled = true;
+
+            // aanmaken post call naar DB om de nieuwe calendarevent op te slaan if confirm event button is tapped
             var caleventJson = JsonConvert.SerializeObject(calevent);
 
             HttpClient client = new HttpClient();
@@ -82,6 +89,19 @@ namespace WindowsOpendeurdagAppClient
 
             this.Frame.Navigate(typeof(AdminAgenda), null);
         }
+        
+        /*private async void confirmevent_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            // aanmaken post call naar DB om de nieuwe calendarevent op te slaan if confirm event button is tapped
+            var caleventJson = JsonConvert.SerializeObject(calevent);
+
+            HttpClient client = new HttpClient();
+
+            var res = await client.PostAsync("http://localhost:64288/api/calendarevents", new
+                StringContent(caleventJson, System.Text.Encoding.UTF8, "application/json"));
+
+            this.Frame.Navigate(typeof(AdminAgenda), null);
+        }*/
     }
 
     public class StringFormatConverterAdmin : IValueConverter

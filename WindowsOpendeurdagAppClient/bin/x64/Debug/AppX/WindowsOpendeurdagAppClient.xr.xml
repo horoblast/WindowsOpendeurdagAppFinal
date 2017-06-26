@@ -140,6 +140,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
       <RootEvent Name="Tapped" />
       <RootEvent Name="Click" />

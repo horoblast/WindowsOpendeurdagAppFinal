@@ -59,6 +59,7 @@
                             <ListView x:ConnectionId='6' x:Name="lvformulieren">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
+                                        <Border BorderBrush="Black" BorderThickness="0 0 0 2">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="1*" />
@@ -82,6 +83,7 @@
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Campus}" Grid.Column="1"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Richting}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                         </Grid>
+                                        </Border>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
                                 <ListView.ItemContainerStyle>

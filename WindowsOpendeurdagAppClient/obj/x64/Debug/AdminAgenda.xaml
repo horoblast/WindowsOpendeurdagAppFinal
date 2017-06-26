@@ -50,15 +50,16 @@
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                     <RelativePanel>
-                        <Image x:ConnectionId='9' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
-                        <Image x:ConnectionId='10' x:Name="adminlogout" Source="../Assets/logouticonPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"                            />
+                        <Image x:ConnectionId='10' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                        <Image x:ConnectionId='11' x:Name="adminlogout" Source="../Assets/logouticonPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"                            />
                     </RelativePanel>
                 </Border>
                 <StackPanel Orientation="Vertical">
                     <RelativePanel Padding="10">
                         <TextBlock x:ConnectionId='7' x:Name="agenda" Text="Agenda" FontSize="22" HorizontalAlignment="Left"></TextBlock>
 
-                        <Button x:ConnectionId='8' x:Name="addevent" HorizontalAlignment="Center"                          RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Add Event</Button>
+                        <Button x:ConnectionId='8' x:Name="confirmEvent" HorizontalAlignment="Center" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" IsEnabled="False" Margin="0,0,160,0">Confirm event</Button>
+                        <Button x:ConnectionId='9' x:Name="addevent" HorizontalAlignment="Center"                          RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Make a new event</Button>
                     </RelativePanel>
               
                     

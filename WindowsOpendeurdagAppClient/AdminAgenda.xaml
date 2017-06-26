@@ -58,7 +58,8 @@
                     <RelativePanel Padding="10">
                         <TextBlock x:Name="agenda" Text="Agenda" FontSize="22" HorizontalAlignment="Left"></TextBlock>
 
-                        <Button x:Name="addevent" HorizontalAlignment="Center" Tapped="addevent_Tapped" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Add Event</Button>
+                        <Button x:Name="confirmEvent" HorizontalAlignment="Center" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" IsEnabled="False" Margin="0,0,160,0">Confirm event</Button>
+                        <Button x:Name="addevent" HorizontalAlignment="Center" Tapped="addevent_Tapped" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Make a new event</Button>
                     </RelativePanel>
               
                     

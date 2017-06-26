@@ -47,7 +47,7 @@ namespace WindowsOpendeurdagAppClient
                 Geboortedatum = this.geboortedatum.Date.ToString(),
                     Straat = this.adres.Text,
                     Email = this.email.Text,
-                    Telnr = int.Parse(this.gsmnummer.Text),
+                    Telnr = 1 + int.Parse(this.gsmnummer.Text),
                     Campus = this.campus.SelectedItem.ToString(),
                     Richting = this.opleiding.SelectedItem.ToString()
                 };
