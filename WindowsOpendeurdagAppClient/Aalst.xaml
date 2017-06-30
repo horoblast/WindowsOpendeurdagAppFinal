@@ -77,7 +77,7 @@
 
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/Aalst.png" Stretch="Uniform"/>
+                            <WebView x:Name="webviewAalst" Height="600" Source="https://www.google.be/maps/place/Hogeschool+Gent+-+campus+Aalst/@50.9372849,4.033355,15z/data=!4m5!3m4!1s0x0:0x7a151c3b40f58c76!8m2!3d50.9372849!4d4.033355" />
                         </StackPanel>
                     </StackPanel>
                 </Border>

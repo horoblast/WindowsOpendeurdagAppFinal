@@ -74,7 +74,7 @@
                             </StackPanel>
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/Melle.png" Stretch="Uniform"/>
+                            <WebView x:Name="webviewMelle" Height="600" Source="http://bit.ly/2typHyL" />
                         </StackPanel>
                     </StackPanel>
                 </Border>

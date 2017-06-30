@@ -125,7 +125,7 @@
                             </StackPanel>
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/Schoonmeersen.png" Stretch="Uniform"/>
+                            <WebView x:Name="webviewSchoonmeersen" Height="600" Source="http://bit.ly/2tuspVi" />
                         </StackPanel>
                     </StackPanel>
                 </Border>

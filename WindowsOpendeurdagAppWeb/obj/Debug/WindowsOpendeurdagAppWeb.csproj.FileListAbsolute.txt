@@ -195,3 +195,4 @@ C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\
 C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.dll
 C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.pdb
 C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.Migrations.Initial16.resources
+C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppWeb\obj\Debug\WindowsOpendeurdagAppWeb.Migrations.Initial17.resources

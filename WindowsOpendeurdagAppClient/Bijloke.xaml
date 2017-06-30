@@ -117,7 +117,7 @@
                             </StackPanel>
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/Bijloke.png" Stretch="Uniform"/>
+                            <WebView x:Name="webviewBijloke" Height="600" Source="http://bit.ly/2s9YL4l" />
                         </StackPanel>
                     </StackPanel>
                 </Border>

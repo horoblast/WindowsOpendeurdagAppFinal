@@ -47,7 +47,7 @@
             </Grid.RowDefinitions>
             <StackPanel Orientation="Vertical" Padding="20" Margin="10" Grid.RowSpan="2">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:ConnectionId='7' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                    <Image x:ConnectionId='8' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
                 </Border>
                 <StackPanel Padding="10"></StackPanel>
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
@@ -104,7 +104,7 @@
                                 <TextBlock Text="Voskenslaan 270" HorizontalAlignment="Center"></TextBlock>
                                 <TextBlock Text="9000 Gent" HorizontalAlignment="Center"></TextBlock>
                                 <TextBlock Text="09 243 20 04" HorizontalAlignment="Center"></TextBlock>
-                                <Button x:ConnectionId='6' Content="Plan Campus"                        HorizontalAlignment="Center"></Button>
+                                <Button x:ConnectionId='7' Content="Plan Campus"                        HorizontalAlignment="Center"></Button>
                                 <TextBlock></TextBlock>
                                 <TextBlock Text="Gebouwen" HorizontalAlignment="Center" FontSize="18"></TextBlock>
                                 <TextBlock></TextBlock>
@@ -125,7 +125,7 @@
                             </StackPanel>
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/Schoonmeersen.png" Stretch="Uniform"/>
+                            <WebView x:ConnectionId='6' x:Name="webviewSchoonmeersen" Height="600" Source="http://bit.ly/2tuspVi" />
                         </StackPanel>
                     </StackPanel>
                 </Border>

@@ -94,7 +94,7 @@
                             </StackPanel>
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/Ledeganck.png" Stretch="Uniform"/>
+                            <WebView x:Name="webviewLedeganck" Height="600" Source="http://bit.ly/2tsJNtP" />
                         </StackPanel>
                     </StackPanel>
                 </Border>

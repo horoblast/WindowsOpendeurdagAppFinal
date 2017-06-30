@@ -89,9 +89,10 @@
                                 <TextBlock Text="Gebouw G" HorizontalAlignment="Center"></TextBlock>
                                 <TextBlock Text="(GMRCG)" HorizontalAlignment="Center"></TextBlock>
                             </StackPanel>
-
                         </StackPanel>
-                       
+                        <StackPanel>
+                            <WebView x:Name="webviewMercator" Height="600" Source="http://bit.ly/2t99w83" />
+                        </StackPanel>
                     </StackPanel>
                 </Border>
             </StackPanel>

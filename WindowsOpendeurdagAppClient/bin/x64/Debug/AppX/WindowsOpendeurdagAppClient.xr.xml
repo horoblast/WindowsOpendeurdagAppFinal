@@ -93,6 +93,10 @@
       <RootProperty Name="Visibility" />
       <RootProperty Name="Foreground" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.WebView">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Source" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Stretch" />

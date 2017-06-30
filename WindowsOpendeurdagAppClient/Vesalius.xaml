@@ -91,7 +91,7 @@
                             </StackPanel>
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/Vesalius.png" Stretch="Uniform"/>
+                            <WebView x:Name="webviewVesalius" Height="600" Source="http://bit.ly/2sZj6fq" />
                         </StackPanel>
                     </StackPanel>
                 </Border>

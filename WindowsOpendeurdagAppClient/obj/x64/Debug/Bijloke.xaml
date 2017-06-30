@@ -47,7 +47,7 @@
             </Grid.RowDefinitions>
             <StackPanel Orientation="Vertical" Padding="20" Margin="10" Grid.RowSpan="2">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:ConnectionId='6' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                    <Image x:ConnectionId='7' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
                 </Border>
                 <StackPanel Padding="10"></StackPanel>
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
@@ -117,7 +117,7 @@
                             </StackPanel>
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/Bijloke.png" Stretch="Uniform"/>
+                            <WebView x:ConnectionId='6' x:Name="webviewBijloke" Height="600" Source="http://bit.ly/2s9YL4l" />
                         </StackPanel>
                     </StackPanel>
                 </Border>

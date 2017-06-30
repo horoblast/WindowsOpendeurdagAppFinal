@@ -89,7 +89,7 @@
                             </StackPanel>
                         </StackPanel>
                         <StackPanel>
-                            <Image Source="Assets/GroteSikkel.png" Stretch="Uniform"/>
+                            <WebView x:Name="webviewGroteSikkel" Height="600" Source="https://www.google.be/maps/place/Ghent+Conservatory+%2F+School+of+Arts+Ghent/@51.054208,3.726329,15z/data=!4m5!3m4!1s0x0:0x145f849c9a9923!8m2!3d51.054208!4d3.726329" />
                         </StackPanel>
                     </StackPanel>
                 </Border>
