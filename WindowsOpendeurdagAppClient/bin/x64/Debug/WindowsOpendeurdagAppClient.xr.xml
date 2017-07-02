@@ -101,6 +101,7 @@
       <RootProperty Name="Source" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
       <RootProperty Name="IsDoubleTapEnabled" />
       <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Tapped" />
@@ -157,6 +158,8 @@
     <RootType FullName="WindowsOpendeurdagAppClient.Bedrijfsmanagement" />
     <RootType FullName="WindowsOpendeurdagAppClient.Bijloke" />
     <RootType FullName="WindowsOpendeurdagAppClient.Campussen" />
+    <RootType FullName="WindowsOpendeurdagAppClient.DerdeVerdieping" />
+    <RootType FullName="WindowsOpendeurdagAppClient.EersteVerdieping" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="SelectedIndex" />
       <RootProperty Name="Items" />
@@ -164,6 +167,7 @@
     <RootType FullName="System.String" />
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker" />
     <RootType FullName="WindowsOpendeurdagAppClient.GebruikerFormuliers" />
+    <RootType FullName="WindowsOpendeurdagAppClient.Gelijkvloers" />
     <RootType FullName="WindowsOpendeurdagAppClient.Grote_Sikkel" />
     <RootType FullName="WindowsOpendeurdagAppClient.Ledeganck" />
     <RootType FullName="WindowsOpendeurdagAppClient.MainPage" />
@@ -177,6 +181,8 @@
     <RootType FullName="WindowsOpendeurdagAppClient.SchoonmeersenRondleiding" />
     <RootType FullName="WindowsOpendeurdagAppClient.Statistieken" />
     <RootType FullName="WindowsOpendeurdagAppClient.Toegepasteinformatica" />
+    <RootType FullName="WindowsOpendeurdagAppClient.TweedeVerdieping" />
     <RootType FullName="WindowsOpendeurdagAppClient.Vesalius" />
+    <RootType FullName="WindowsOpendeurdagAppClient.VierdeVerdieping" />
   </Roots.RootTypes>
 </Roots>

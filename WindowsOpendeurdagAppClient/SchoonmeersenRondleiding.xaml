@@ -15,8 +15,7 @@
                         <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="stack1.Orientation" Value="vertical"></Setter>
-                        <Setter Target="stack2.Orientation" Value="vertical"></Setter>
+                        <Setter Target="verdiepingen.Orientation" Value="vertical"></Setter>
                     </VisualState.Setters>
                 </VisualState>
 
@@ -51,11 +50,54 @@
                 </Border>
             
             <StackPanel Padding="10"></StackPanel>
-            <Border>
-                <StackPanel>
-                    <Image Source="Assets/SchoonmeersenPlan.JPG" Stretch="None"/>
-                </StackPanel>
-            </Border>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced" >
+                    <StackPanel >
+                        <StackPanel HorizontalAlignment="Center">
+                            <TextBlock Text="Welkom bij de rondleiding!" Padding="10" FontSize="28" FontWeight="Bold"></TextBlock>
+                        </StackPanel>
+
+                        <StackPanel HorizontalAlignment="Center">
+                            <TextBlock Text="Hieronder vind je de details per verdieping van gebouw B op de campus Schoonmeersen." />
+                        </StackPanel>
+
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" x:Name="verdiepingen" Padding="10 10 10 10" HorizontalAlignment="Center">
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Gelijkvloers">
+                                        <TextBlock Text="Gelijkvloers" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Eerste_verdieping">
+                                        <TextBlock Text="1e verdieping" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Tweede_verdieping">
+                                        <TextBlock Text="2e verdieping" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Derde_verdieping">
+                                        <TextBlock Text="3e verdieping" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel Orientation="Vertical" Padding="10" Tapped="StackPanel_Tapped_Vierde_verdieping">
+                                        <TextBlock Text="4e verdieping" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
             </StackPanel>
         </Grid>
 

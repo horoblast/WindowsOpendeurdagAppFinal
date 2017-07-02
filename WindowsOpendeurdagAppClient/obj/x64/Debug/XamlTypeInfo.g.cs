@@ -132,7 +132,7 @@ namespace WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[27];
+            _typeNameTable = new string[32];
             _typeNameTable[0] = "WindowsOpendeurdagAppClient.Aalst";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -145,23 +145,28 @@ namespace WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo
             _typeNameTable[9] = "WindowsOpendeurdagAppClient.Bedrijfsmanagement";
             _typeNameTable[10] = "WindowsOpendeurdagAppClient.Bijloke";
             _typeNameTable[11] = "WindowsOpendeurdagAppClient.Campussen";
-            _typeNameTable[12] = "WindowsOpendeurdagAppClient.GebruikerFormuliers";
-            _typeNameTable[13] = "WindowsOpendeurdagAppClient.Grote_Sikkel";
-            _typeNameTable[14] = "WindowsOpendeurdagAppClient.Ledeganck";
-            _typeNameTable[15] = "WindowsOpendeurdagAppClient.MainPage";
-            _typeNameTable[16] = "WindowsOpendeurdagAppClient.Melle";
-            _typeNameTable[17] = "WindowsOpendeurdagAppClient.Mercator";
-            _typeNameTable[18] = "WindowsOpendeurdagAppClient.Nieuws";
-            _typeNameTable[19] = "WindowsOpendeurdagAppClient.Officemanagement";
-            _typeNameTable[20] = "WindowsOpendeurdagAppClient.OpleidingenFBO";
-            _typeNameTable[21] = "WindowsOpendeurdagAppClient.Retailmanagement";
-            _typeNameTable[22] = "WindowsOpendeurdagAppClient.Schoonmeersen";
-            _typeNameTable[23] = "WindowsOpendeurdagAppClient.SchoonmeersenRondleiding";
-            _typeNameTable[24] = "WindowsOpendeurdagAppClient.Statistieken";
-            _typeNameTable[25] = "WindowsOpendeurdagAppClient.Toegepasteinformatica";
-            _typeNameTable[26] = "WindowsOpendeurdagAppClient.Vesalius";
+            _typeNameTable[12] = "WindowsOpendeurdagAppClient.DerdeVerdieping";
+            _typeNameTable[13] = "WindowsOpendeurdagAppClient.EersteVerdieping";
+            _typeNameTable[14] = "WindowsOpendeurdagAppClient.GebruikerFormuliers";
+            _typeNameTable[15] = "WindowsOpendeurdagAppClient.Gelijkvloers";
+            _typeNameTable[16] = "WindowsOpendeurdagAppClient.Grote_Sikkel";
+            _typeNameTable[17] = "WindowsOpendeurdagAppClient.Ledeganck";
+            _typeNameTable[18] = "WindowsOpendeurdagAppClient.MainPage";
+            _typeNameTable[19] = "WindowsOpendeurdagAppClient.Melle";
+            _typeNameTable[20] = "WindowsOpendeurdagAppClient.Mercator";
+            _typeNameTable[21] = "WindowsOpendeurdagAppClient.Nieuws";
+            _typeNameTable[22] = "WindowsOpendeurdagAppClient.Officemanagement";
+            _typeNameTable[23] = "WindowsOpendeurdagAppClient.OpleidingenFBO";
+            _typeNameTable[24] = "WindowsOpendeurdagAppClient.Retailmanagement";
+            _typeNameTable[25] = "WindowsOpendeurdagAppClient.Schoonmeersen";
+            _typeNameTable[26] = "WindowsOpendeurdagAppClient.SchoonmeersenRondleiding";
+            _typeNameTable[27] = "WindowsOpendeurdagAppClient.Statistieken";
+            _typeNameTable[28] = "WindowsOpendeurdagAppClient.Toegepasteinformatica";
+            _typeNameTable[29] = "WindowsOpendeurdagAppClient.TweedeVerdieping";
+            _typeNameTable[30] = "WindowsOpendeurdagAppClient.Vesalius";
+            _typeNameTable[31] = "WindowsOpendeurdagAppClient.VierdeVerdieping";
 
-            _typeTable = new global::System.Type[27];
+            _typeTable = new global::System.Type[32];
             _typeTable[0] = typeof(global::WindowsOpendeurdagAppClient.Aalst);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -174,21 +179,26 @@ namespace WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo
             _typeTable[9] = typeof(global::WindowsOpendeurdagAppClient.Bedrijfsmanagement);
             _typeTable[10] = typeof(global::WindowsOpendeurdagAppClient.Bijloke);
             _typeTable[11] = typeof(global::WindowsOpendeurdagAppClient.Campussen);
-            _typeTable[12] = typeof(global::WindowsOpendeurdagAppClient.GebruikerFormuliers);
-            _typeTable[13] = typeof(global::WindowsOpendeurdagAppClient.Grote_Sikkel);
-            _typeTable[14] = typeof(global::WindowsOpendeurdagAppClient.Ledeganck);
-            _typeTable[15] = typeof(global::WindowsOpendeurdagAppClient.MainPage);
-            _typeTable[16] = typeof(global::WindowsOpendeurdagAppClient.Melle);
-            _typeTable[17] = typeof(global::WindowsOpendeurdagAppClient.Mercator);
-            _typeTable[18] = typeof(global::WindowsOpendeurdagAppClient.Nieuws);
-            _typeTable[19] = typeof(global::WindowsOpendeurdagAppClient.Officemanagement);
-            _typeTable[20] = typeof(global::WindowsOpendeurdagAppClient.OpleidingenFBO);
-            _typeTable[21] = typeof(global::WindowsOpendeurdagAppClient.Retailmanagement);
-            _typeTable[22] = typeof(global::WindowsOpendeurdagAppClient.Schoonmeersen);
-            _typeTable[23] = typeof(global::WindowsOpendeurdagAppClient.SchoonmeersenRondleiding);
-            _typeTable[24] = typeof(global::WindowsOpendeurdagAppClient.Statistieken);
-            _typeTable[25] = typeof(global::WindowsOpendeurdagAppClient.Toegepasteinformatica);
-            _typeTable[26] = typeof(global::WindowsOpendeurdagAppClient.Vesalius);
+            _typeTable[12] = typeof(global::WindowsOpendeurdagAppClient.DerdeVerdieping);
+            _typeTable[13] = typeof(global::WindowsOpendeurdagAppClient.EersteVerdieping);
+            _typeTable[14] = typeof(global::WindowsOpendeurdagAppClient.GebruikerFormuliers);
+            _typeTable[15] = typeof(global::WindowsOpendeurdagAppClient.Gelijkvloers);
+            _typeTable[16] = typeof(global::WindowsOpendeurdagAppClient.Grote_Sikkel);
+            _typeTable[17] = typeof(global::WindowsOpendeurdagAppClient.Ledeganck);
+            _typeTable[18] = typeof(global::WindowsOpendeurdagAppClient.MainPage);
+            _typeTable[19] = typeof(global::WindowsOpendeurdagAppClient.Melle);
+            _typeTable[20] = typeof(global::WindowsOpendeurdagAppClient.Mercator);
+            _typeTable[21] = typeof(global::WindowsOpendeurdagAppClient.Nieuws);
+            _typeTable[22] = typeof(global::WindowsOpendeurdagAppClient.Officemanagement);
+            _typeTable[23] = typeof(global::WindowsOpendeurdagAppClient.OpleidingenFBO);
+            _typeTable[24] = typeof(global::WindowsOpendeurdagAppClient.Retailmanagement);
+            _typeTable[25] = typeof(global::WindowsOpendeurdagAppClient.Schoonmeersen);
+            _typeTable[26] = typeof(global::WindowsOpendeurdagAppClient.SchoonmeersenRondleiding);
+            _typeTable[27] = typeof(global::WindowsOpendeurdagAppClient.Statistieken);
+            _typeTable[28] = typeof(global::WindowsOpendeurdagAppClient.Toegepasteinformatica);
+            _typeTable[29] = typeof(global::WindowsOpendeurdagAppClient.TweedeVerdieping);
+            _typeTable[30] = typeof(global::WindowsOpendeurdagAppClient.Vesalius);
+            _typeTable[31] = typeof(global::WindowsOpendeurdagAppClient.VierdeVerdieping);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -232,21 +242,26 @@ namespace WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo
         private object Activate_9_Bedrijfsmanagement() { return new global::WindowsOpendeurdagAppClient.Bedrijfsmanagement(); }
         private object Activate_10_Bijloke() { return new global::WindowsOpendeurdagAppClient.Bijloke(); }
         private object Activate_11_Campussen() { return new global::WindowsOpendeurdagAppClient.Campussen(); }
-        private object Activate_12_GebruikerFormuliers() { return new global::WindowsOpendeurdagAppClient.GebruikerFormuliers(); }
-        private object Activate_13_Grote_Sikkel() { return new global::WindowsOpendeurdagAppClient.Grote_Sikkel(); }
-        private object Activate_14_Ledeganck() { return new global::WindowsOpendeurdagAppClient.Ledeganck(); }
-        private object Activate_15_MainPage() { return new global::WindowsOpendeurdagAppClient.MainPage(); }
-        private object Activate_16_Melle() { return new global::WindowsOpendeurdagAppClient.Melle(); }
-        private object Activate_17_Mercator() { return new global::WindowsOpendeurdagAppClient.Mercator(); }
-        private object Activate_18_Nieuws() { return new global::WindowsOpendeurdagAppClient.Nieuws(); }
-        private object Activate_19_Officemanagement() { return new global::WindowsOpendeurdagAppClient.Officemanagement(); }
-        private object Activate_20_OpleidingenFBO() { return new global::WindowsOpendeurdagAppClient.OpleidingenFBO(); }
-        private object Activate_21_Retailmanagement() { return new global::WindowsOpendeurdagAppClient.Retailmanagement(); }
-        private object Activate_22_Schoonmeersen() { return new global::WindowsOpendeurdagAppClient.Schoonmeersen(); }
-        private object Activate_23_SchoonmeersenRondleiding() { return new global::WindowsOpendeurdagAppClient.SchoonmeersenRondleiding(); }
-        private object Activate_24_Statistieken() { return new global::WindowsOpendeurdagAppClient.Statistieken(); }
-        private object Activate_25_Toegepasteinformatica() { return new global::WindowsOpendeurdagAppClient.Toegepasteinformatica(); }
-        private object Activate_26_Vesalius() { return new global::WindowsOpendeurdagAppClient.Vesalius(); }
+        private object Activate_12_DerdeVerdieping() { return new global::WindowsOpendeurdagAppClient.DerdeVerdieping(); }
+        private object Activate_13_EersteVerdieping() { return new global::WindowsOpendeurdagAppClient.EersteVerdieping(); }
+        private object Activate_14_GebruikerFormuliers() { return new global::WindowsOpendeurdagAppClient.GebruikerFormuliers(); }
+        private object Activate_15_Gelijkvloers() { return new global::WindowsOpendeurdagAppClient.Gelijkvloers(); }
+        private object Activate_16_Grote_Sikkel() { return new global::WindowsOpendeurdagAppClient.Grote_Sikkel(); }
+        private object Activate_17_Ledeganck() { return new global::WindowsOpendeurdagAppClient.Ledeganck(); }
+        private object Activate_18_MainPage() { return new global::WindowsOpendeurdagAppClient.MainPage(); }
+        private object Activate_19_Melle() { return new global::WindowsOpendeurdagAppClient.Melle(); }
+        private object Activate_20_Mercator() { return new global::WindowsOpendeurdagAppClient.Mercator(); }
+        private object Activate_21_Nieuws() { return new global::WindowsOpendeurdagAppClient.Nieuws(); }
+        private object Activate_22_Officemanagement() { return new global::WindowsOpendeurdagAppClient.Officemanagement(); }
+        private object Activate_23_OpleidingenFBO() { return new global::WindowsOpendeurdagAppClient.OpleidingenFBO(); }
+        private object Activate_24_Retailmanagement() { return new global::WindowsOpendeurdagAppClient.Retailmanagement(); }
+        private object Activate_25_Schoonmeersen() { return new global::WindowsOpendeurdagAppClient.Schoonmeersen(); }
+        private object Activate_26_SchoonmeersenRondleiding() { return new global::WindowsOpendeurdagAppClient.SchoonmeersenRondleiding(); }
+        private object Activate_27_Statistieken() { return new global::WindowsOpendeurdagAppClient.Statistieken(); }
+        private object Activate_28_Toegepasteinformatica() { return new global::WindowsOpendeurdagAppClient.Toegepasteinformatica(); }
+        private object Activate_29_TweedeVerdieping() { return new global::WindowsOpendeurdagAppClient.TweedeVerdieping(); }
+        private object Activate_30_Vesalius() { return new global::WindowsOpendeurdagAppClient.Vesalius(); }
+        private object Activate_31_VierdeVerdieping() { return new global::WindowsOpendeurdagAppClient.VierdeVerdieping(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -333,107 +348,142 @@ namespace WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  WindowsOpendeurdagAppClient.GebruikerFormuliers
+            case 12:   //  WindowsOpendeurdagAppClient.DerdeVerdieping
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_GebruikerFormuliers;
+                userType.Activator = Activate_12_DerdeVerdieping;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  WindowsOpendeurdagAppClient.Grote_Sikkel
+            case 13:   //  WindowsOpendeurdagAppClient.EersteVerdieping
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_Grote_Sikkel;
+                userType.Activator = Activate_13_EersteVerdieping;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  WindowsOpendeurdagAppClient.Ledeganck
+            case 14:   //  WindowsOpendeurdagAppClient.GebruikerFormuliers
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_Ledeganck;
+                userType.Activator = Activate_14_GebruikerFormuliers;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  WindowsOpendeurdagAppClient.MainPage
+            case 15:   //  WindowsOpendeurdagAppClient.Gelijkvloers
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_MainPage;
+                userType.Activator = Activate_15_Gelijkvloers;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  WindowsOpendeurdagAppClient.Melle
+            case 16:   //  WindowsOpendeurdagAppClient.Grote_Sikkel
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_Melle;
+                userType.Activator = Activate_16_Grote_Sikkel;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  WindowsOpendeurdagAppClient.Mercator
+            case 17:   //  WindowsOpendeurdagAppClient.Ledeganck
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_Mercator;
+                userType.Activator = Activate_17_Ledeganck;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 18:   //  WindowsOpendeurdagAppClient.Nieuws
+            case 18:   //  WindowsOpendeurdagAppClient.MainPage
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_Nieuws;
+                userType.Activator = Activate_18_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 19:   //  WindowsOpendeurdagAppClient.Officemanagement
+            case 19:   //  WindowsOpendeurdagAppClient.Melle
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_Officemanagement;
+                userType.Activator = Activate_19_Melle;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 20:   //  WindowsOpendeurdagAppClient.OpleidingenFBO
+            case 20:   //  WindowsOpendeurdagAppClient.Mercator
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_20_OpleidingenFBO;
+                userType.Activator = Activate_20_Mercator;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 21:   //  WindowsOpendeurdagAppClient.Retailmanagement
+            case 21:   //  WindowsOpendeurdagAppClient.Nieuws
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_21_Retailmanagement;
+                userType.Activator = Activate_21_Nieuws;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  WindowsOpendeurdagAppClient.Schoonmeersen
+            case 22:   //  WindowsOpendeurdagAppClient.Officemanagement
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_22_Schoonmeersen;
+                userType.Activator = Activate_22_Officemanagement;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 23:   //  WindowsOpendeurdagAppClient.SchoonmeersenRondleiding
+            case 23:   //  WindowsOpendeurdagAppClient.OpleidingenFBO
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_23_SchoonmeersenRondleiding;
+                userType.Activator = Activate_23_OpleidingenFBO;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 24:   //  WindowsOpendeurdagAppClient.Statistieken
+            case 24:   //  WindowsOpendeurdagAppClient.Retailmanagement
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_24_Statistieken;
+                userType.Activator = Activate_24_Retailmanagement;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 25:   //  WindowsOpendeurdagAppClient.Toegepasteinformatica
+            case 25:   //  WindowsOpendeurdagAppClient.Schoonmeersen
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_25_Toegepasteinformatica;
+                userType.Activator = Activate_25_Schoonmeersen;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 26:   //  WindowsOpendeurdagAppClient.Vesalius
+            case 26:   //  WindowsOpendeurdagAppClient.SchoonmeersenRondleiding
                 userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_26_Vesalius;
+                userType.Activator = Activate_26_SchoonmeersenRondleiding;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 27:   //  WindowsOpendeurdagAppClient.Statistieken
+                userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_27_Statistieken;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 28:   //  WindowsOpendeurdagAppClient.Toegepasteinformatica
+                userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_28_Toegepasteinformatica;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 29:   //  WindowsOpendeurdagAppClient.TweedeVerdieping
+                userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_29_TweedeVerdieping;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 30:   //  WindowsOpendeurdagAppClient.Vesalius
+                userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_30_Vesalius;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 31:   //  WindowsOpendeurdagAppClient.VierdeVerdieping
+                userType = new global::WindowsOpendeurdagAppClient.WindowsOpendeurdagAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_31_VierdeVerdieping;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

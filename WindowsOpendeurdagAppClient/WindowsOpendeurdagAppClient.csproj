@@ -119,8 +119,17 @@
     <Compile Include="Campussen.xaml.cs">
       <DependentUpon>Campussen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DerdeVerdieping.xaml.cs">
+      <DependentUpon>DerdeVerdieping.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EersteVerdieping.xaml.cs">
+      <DependentUpon>EersteVerdieping.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GebruikerFormuliers.xaml.cs">
       <DependentUpon>GebruikerFormuliers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gelijkvloers.xaml.cs">
+      <DependentUpon>Gelijkvloers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Grote Sikkel.xaml.cs">
       <DependentUpon>Grote Sikkel.xaml</DependentUpon>
@@ -164,8 +173,14 @@
     <Compile Include="Toegepasteinformatica.xaml.cs">
       <DependentUpon>Toegepasteinformatica.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TweedeVerdieping.xaml.cs">
+      <DependentUpon>TweedeVerdieping.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Vesalius.xaml.cs">
       <DependentUpon>Vesalius.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VierdeVerdieping.xaml.cs">
+      <DependentUpon>VierdeVerdieping.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +200,11 @@
     <Content Include="Assets\Desktop\Opendeurdag.jpg" />
     <Content Include="Assets\Desktop\statistiekenicon.png" />
     <Content Include="Assets\GroteSikkel.png" />
+    <Content Include="Assets\GSCHB0.png" />
+    <Content Include="Assets\GSCHB1.png" />
+    <Content Include="Assets\GSCHB2.png" />
+    <Content Include="Assets\GSCHB3.png" />
+    <Content Include="Assets\GSCHB4.png" />
     <Content Include="Assets\Ledeganck.png" />
     <Content Include="Assets\lockiconPhone.png" />
     <Content Include="Assets\logouticonPhone.png" />
@@ -254,7 +274,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DerdeVerdieping.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EersteVerdieping.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GebruikerFormuliers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Gelijkvloers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -310,7 +342,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="TweedeVerdieping.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Vesalius.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VierdeVerdieping.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

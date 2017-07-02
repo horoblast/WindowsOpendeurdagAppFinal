@@ -30,5 +30,31 @@ namespace WindowsOpendeurdagAppClient
         {
             this.Frame.Navigate(typeof(Schoonmeersen), null);
         }
+
+        private void StackPanel_Tapped_Gelijkvloers(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Gelijkvloers), null);
+        }
+
+        private void StackPanel_Tapped_Eerste_verdieping(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(EersteVerdieping), null);
+        }
+
+        private void StackPanel_Tapped_Tweede_verdieping(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(TweedeVerdieping), null);
+        }
+
+        private void StackPanel_Tapped_Derde_verdieping(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DerdeVerdieping), null);
+        }
+
+        private void StackPanel_Tapped_Vierde_verdieping(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(VierdeVerdieping), null);
+        }
+
     }
 }

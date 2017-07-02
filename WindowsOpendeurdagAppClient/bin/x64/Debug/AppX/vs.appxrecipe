@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>f82ae678-408d-4929-bc0c-d38b46eab108</PackageIdentityName>
     <PackageIdentityPublisher>CN=jonas</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-30T18:58:37.073</Modified>
+      <Modified>2017-07-02T19:34:12.550</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.exe">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.exe">
       <PackagePath>entrypoint\WindowsOpendeurdagAppClient.exe</PackagePath>
-      <Modified>2017-06-30T18:58:36.616</Modified>
+      <Modified>2017-07-02T19:34:11.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bram\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -452,192 +452,212 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Aalst.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Aalst.png">
       <PackagePath>Assets\Aalst.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.189</Modified>
+      <Modified>2017-07-02T18:46:33.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Bijloke.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Bijloke.png">
       <PackagePath>Assets\Bijloke.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.197</Modified>
+      <Modified>2017-07-02T18:46:33.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Agenda.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Agenda.png">
       <PackagePath>Assets\Desktop\Agenda.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.202</Modified>
+      <Modified>2017-07-02T18:46:33.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Bedrijf.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Bedrijf.png">
       <PackagePath>Assets\Desktop\Bedrijf.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.203</Modified>
+      <Modified>2017-07-02T18:46:33.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Campus.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Campus.png">
       <PackagePath>Assets\Desktop\Campus.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.258</Modified>
+      <Modified>2017-07-02T18:46:33.360</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\gebruikersformulierenicon.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\gebruikersformulierenicon.png">
       <PackagePath>Assets\Desktop\gebruikersformulierenicon.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.319</Modified>
+      <Modified>2017-07-02T18:46:33.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\statistiekenicon.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\statistiekenicon.png">
       <PackagePath>Assets\Desktop\statistiekenicon.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.322</Modified>
+      <Modified>2017-07-02T18:46:33.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\GroteSikkel.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\GroteSikkel.png">
       <PackagePath>Assets\GroteSikkel.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.328</Modified>
+      <Modified>2017-07-02T18:46:33.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Ledeganck.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\GSCHB0.png">
+      <PackagePath>Assets\GSCHB0.png</PackagePath>
+      <Modified>2017-07-02T18:55:04.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\GSCHB1.png">
+      <PackagePath>Assets\GSCHB1.png</PackagePath>
+      <Modified>2017-07-02T18:55:04.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\GSCHB2.png">
+      <PackagePath>Assets\GSCHB2.png</PackagePath>
+      <Modified>2017-07-02T18:55:04.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\GSCHB3.png">
+      <PackagePath>Assets\GSCHB3.png</PackagePath>
+      <Modified>2017-07-02T18:55:04.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\GSCHB4.png">
+      <PackagePath>Assets\GSCHB4.png</PackagePath>
+      <Modified>2017-07-02T18:55:04.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Ledeganck.png">
       <PackagePath>Assets\Ledeganck.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.376</Modified>
+      <Modified>2017-07-02T18:46:33.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\lockiconPhone.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\lockiconPhone.png">
       <PackagePath>Assets\lockiconPhone.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.569</Modified>
+      <Modified>2017-07-02T18:46:33.629</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\logouticonPhone.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\logouticonPhone.png">
       <PackagePath>Assets\logouticonPhone.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.573</Modified>
+      <Modified>2017-07-02T18:46:33.630</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Melle.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Melle.png">
       <PackagePath>Assets\Melle.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.382</Modified>
+      <Modified>2017-07-02T18:46:33.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Phone\HogentLogoMobile.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Phone\HogentLogoMobile.png">
       <PackagePath>Assets\Phone\HogentLogoMobile.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.396</Modified>
+      <Modified>2017-07-02T18:46:33.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Schoonmeersen.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Schoonmeersen.png">
       <PackagePath>Assets\Schoonmeersen.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.401</Modified>
+      <Modified>2017-07-02T18:46:33.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\AgendaTablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\AgendaTablet.png">
       <PackagePath>Assets\Tablet\AgendaTablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.454</Modified>
+      <Modified>2017-07-02T18:46:33.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\BedrijfTablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\BedrijfTablet.png">
       <PackagePath>Assets\Tablet\BedrijfTablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.456</Modified>
+      <Modified>2017-07-02T18:46:33.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\CampusTablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\CampusTablet.png">
       <PackagePath>Assets\Tablet\CampusTablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.467</Modified>
+      <Modified>2017-07-02T18:46:33.563</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\gebruikersformuliereniconTablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\gebruikersformuliereniconTablet.png">
       <PackagePath>Assets\Tablet\gebruikersformuliereniconTablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.541</Modified>
+      <Modified>2017-07-02T18:46:33.574</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\HogentLogoTablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\HogentLogoTablet.png">
       <PackagePath>Assets\Tablet\HogentLogoTablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.513</Modified>
+      <Modified>2017-07-02T18:46:33.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\HogentLogo.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\HogentLogo.png">
       <PackagePath>Assets\Desktop\HogentLogo.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.261</Modified>
+      <Modified>2017-07-02T18:46:33.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl1Tablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl1Tablet.png">
       <PackagePath>Assets\Tablet\opl1Tablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.543</Modified>
+      <Modified>2017-07-02T18:46:33.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl2Tablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl2Tablet.png">
       <PackagePath>Assets\Tablet\opl2Tablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.546</Modified>
+      <Modified>2017-07-02T18:46:33.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl3RetailTablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl3RetailTablet.png">
       <PackagePath>Assets\Tablet\opl3RetailTablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.548</Modified>
+      <Modified>2017-07-02T18:46:33.577</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl4Tablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\opl4Tablet.png">
       <PackagePath>Assets\Tablet\opl4Tablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.550</Modified>
+      <Modified>2017-07-02T18:46:33.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\statistiekeniconTablet.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\statistiekeniconTablet.png">
       <PackagePath>Assets\Tablet\statistiekeniconTablet.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.559</Modified>
+      <Modified>2017-07-02T18:46:33.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Vesalius.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Vesalius.png">
       <PackagePath>Assets\Vesalius.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.564</Modified>
+      <Modified>2017-07-02T18:46:33.581</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-06-25T17:41:23.379</Modified>
+      <Modified>2017-07-02T18:46:33.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-25T17:41:23.415</Modified>
+      <Modified>2017-07-02T18:46:33.420</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-25T17:41:23.435</Modified>
+      <Modified>2017-07-02T18:46:33.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-25T17:41:23.437</Modified>
+      <Modified>2017-07-02T18:46:33.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-25T17:41:23.438</Modified>
+      <Modified>2017-07-02T18:46:33.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-25T17:41:23.440</Modified>
+      <Modified>2017-07-02T18:46:33.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-25T17:41:23.567</Modified>
+      <Modified>2017-07-02T18:46:33.581</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Nieuws.jpg">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Nieuws.jpg">
       <PackagePath>Assets\Desktop\Nieuws.jpg</PackagePath>
-      <Modified>2017-06-25T17:41:23.273</Modified>
+      <Modified>2017-07-02T18:46:33.366</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Opendeurdag.jpg">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Desktop\Opendeurdag.jpg">
       <PackagePath>Assets\Desktop\Opendeurdag.jpg</PackagePath>
-      <Modified>2017-06-25T17:41:23.314</Modified>
+      <Modified>2017-07-02T18:46:33.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\SchoonmeersenPlan.JPG">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\SchoonmeersenPlan.JPG">
       <PackagePath>Assets\SchoonmeersenPlan.JPG</PackagePath>
-      <Modified>2017-06-25T17:41:23.412</Modified>
+      <Modified>2017-07-02T18:46:33.419</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\skireis.jpg">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\skireis.jpg">
       <PackagePath>Assets\skireis.jpg</PackagePath>
-      <Modified>2017-06-25T17:41:23.584</Modified>
+      <Modified>2017-07-02T18:46:33.634</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\NieuwsTablet.jpg">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\NieuwsTablet.jpg">
       <PackagePath>Assets\Tablet\NieuwsTablet.jpg</PackagePath>
-      <Modified>2017-06-25T17:41:23.525</Modified>
+      <Modified>2017-07-02T18:46:33.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\OpendeurdagTablet.jpg">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\Tablet\OpendeurdagTablet.jpg">
       <PackagePath>Assets\Tablet\OpendeurdagTablet.jpg</PackagePath>
-      <Modified>2017-06-25T17:41:23.536</Modified>
+      <Modified>2017-07-02T18:46:33.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\unitedcolorsofghent.jpg">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Assets\unitedcolorsofghent.jpg">
       <PackagePath>Assets\unitedcolorsofghent.jpg</PackagePath>
-      <Modified>2017-06-25T17:41:23.628</Modified>
+      <Modified>2017-07-02T18:46:33.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-06-25T17:41:23.941</Modified>
+      <Modified>2017-07-02T18:46:33.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.xr.xml">
       <PackagePath>WindowsOpendeurdagAppClient.xr.xml</PackagePath>
-      <Modified>2017-06-30T18:18:38.914</Modified>
+      <Modified>2017-07-02T19:19:07.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-10-11T20:14:59.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-30T18:47:28.703</Modified>
+      <Modified>2017-07-02T19:34:12.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal5\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\WindowsOpendeurdagAppClient.exe">
+    <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal6\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\WindowsOpendeurdagAppClient.exe">
       <PackagePath>WindowsOpendeurdagAppClient.exe</PackagePath>
-      <Modified>2017-06-30T18:58:37.069</Modified>
+      <Modified>2017-07-02T19:34:12.540</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -15,8 +15,7 @@
                         <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="stack1.Orientation" Value="vertical"></Setter>
-                        <Setter Target="stack2.Orientation" Value="vertical"></Setter>
+                        <Setter Target="verdiepingen.Orientation" Value="vertical"></Setter>
                     </VisualState.Setters>
                 </VisualState>
 
@@ -46,16 +45,59 @@
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                     <RelativePanel>
-                        <Image x:ConnectionId='5' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                        <Image x:ConnectionId='11' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
                     </RelativePanel>
                 </Border>
             
             <StackPanel Padding="10"></StackPanel>
-            <Border>
-                <StackPanel>
-                    <Image Source="Assets/SchoonmeersenPlan.JPG" Stretch="None"/>
-                </StackPanel>
-            </Border>
+                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced" >
+                    <StackPanel >
+                        <StackPanel HorizontalAlignment="Center">
+                            <TextBlock Text="Welkom bij de rondleiding!" Padding="10" FontSize="28" FontWeight="Bold"></TextBlock>
+                        </StackPanel>
+
+                        <StackPanel HorizontalAlignment="Center">
+                            <TextBlock Text="Hieronder vind je de details per verdieping van gebouw B op de campus Schoonmeersen." />
+                        </StackPanel>
+
+                        <StackPanel>
+                            <StackPanel x:ConnectionId='5' Orientation="Horizontal" x:Name="verdiepingen" Padding="10 10 10 10" HorizontalAlignment="Center">
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel x:ConnectionId='10' Orientation="Vertical" Padding="10"                                        >
+                                        <TextBlock Text="Gelijkvloers" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel x:ConnectionId='9' Orientation="Vertical" Padding="10"                                             >
+                                        <TextBlock Text="1e verdieping" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel x:ConnectionId='8' Orientation="Vertical" Padding="10"                                             >
+                                        <TextBlock Text="2e verdieping" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel x:ConnectionId='7' Orientation="Vertical" Padding="10"                                            >
+                                        <TextBlock Text="3e verdieping" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+                                <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                                    <StackPanel x:ConnectionId='6' Orientation="Vertical" Padding="10"                                             >
+                                        <TextBlock Text="4e verdieping" HorizontalAlignment="Center"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
             </StackPanel>
         </Grid>
 
