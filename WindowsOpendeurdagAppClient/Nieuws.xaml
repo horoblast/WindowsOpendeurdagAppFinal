@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
+
     <ScrollViewer VerticalScrollBarVisibility="Auto">
 
         <VisualStateManager.VisualStateGroups>
@@ -43,19 +43,37 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left" Tapped="home_Tapped" ></Image>
+                    <Image x:Name="home" 
+ Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left" Tapped="home_Tapped" ></Image>
                 </Border>
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Nieuws" FontSize="22" HorizontalAlignment="Center"></TextBlock>
                 </StackPanel>
+                <StackPanel>
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                        <StackPanel Padding="10">
-                        <Image x:Name="nieuwsBtn" IsDoubleTapEnabled="False" VerticalAlignment="Center"  Stretch="none"/>
-                        </StackPanel>
-                    </Border>
-                
+                    <StackPanel Padding="10">
+                            <Image x:Name="nieuwsBtn" Height="200" IsDoubleTapEnabled="False" VerticalAlignment="Center"  />
+                    </StackPanel>
 
+                </Border>
+                    <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
+                        <ListView x:Name="tweetListView"  Margin="5" VerticalAlignment="Stretch">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Source="{Binding ImageUrl}"/>
+                                        <StackPanel>
+                                            <TextBlock Text="{Binding ScreenName}"/>
+                                            <TextBlock Text="{Binding Text}"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Border>
+                </StackPanel>
             </StackPanel>
+            
         </Grid>
     </ScrollViewer>
 </Page>

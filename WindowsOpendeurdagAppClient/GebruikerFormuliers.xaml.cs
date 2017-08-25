@@ -67,7 +67,7 @@ namespace WindowsOpendeurdagAppClient
                 }
                 else if (this.gsmnummer.Text.Length !=10)
                 {
-                    error.Text = "GSM nummer mag enkel uit cijfers bestaan!";
+                    error.Text = "Een geldig GSM nummer bestaat uit 10 cijfers!";
                 }
                 else { 
                 var form = new GebruikerFormulier

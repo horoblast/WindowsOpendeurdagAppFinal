@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinqToTwitter;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -13,14 +14,21 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using System.Collections.ObjectModel;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using Windows.UI.Xaml.Documents;
+using System.ComponentModel;
+using Windows.ApplicationModel.Core;
+using Windows.UI.Core;
+using System.Windows.Input;
+using Newtonsoft.Json;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace WindowsOpendeurdagAppClient
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    
     public sealed partial class Nieuws : Page
     {
         public Nieuws()
@@ -36,10 +44,47 @@ namespace WindowsOpendeurdagAppClient
             this.Frame.Navigate(typeof(MainPage), null);
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
             ImageSource();
+
+            var auth = new ApplicationOnlyAuthorizer
+            {
+                CredentialStore = new InMemoryCredentialStore
+                {
+                    ConsumerKey = "j0zFBHzMkUYILNTbSojbFyPRQ",
+                    ConsumerSecret = "aTS41DXzkDxt9j7JJxjBwdHZDut1am20356q9nuuRlqORj7a2O",
+                }
+
+            };
+            await auth.AuthorizeAsync();
+            var twitterContext = new TwitterContext(auth);
+
+            string twitterfeed = "Hogeschool_Gent";
+
+            Search searchResponse =
+                await
+                (from search in twitterContext.Search
+                 where search.Type == SearchType.Search &&
+                       search.Query == twitterfeed
+                 select search)
+                .SingleOrDefaultAsync();
+
+            List<TweetViewModel> tweets =
+               (from tweet in searchResponse.Statuses
+                select new TweetViewModel
+                {
+                    ImageUrl = tweet.User.ProfileImageUrl,
+                    ScreenName = tweet.User.ScreenNameResponse,
+                    Text = tweet.Text
+                })
+               .ToList();
+
+            tweetListView.ItemsSource = new ObservableCollection<TweetViewModel>(tweets);
         }
+
+
+      
         private void ImageSource()
         {
             nieuwsItems.Add("skireis.jpg");
@@ -71,4 +116,12 @@ namespace WindowsOpendeurdagAppClient
         }
     }
 
+    public class TweetViewModel
+    {
+        public string ImageUrl { get; set; }
+
+        public string ScreenName { get; set; }
+
+        public string Text { get; set; }
+    }
 }
