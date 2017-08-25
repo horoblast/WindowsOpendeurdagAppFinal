@@ -44,7 +44,7 @@ namespace WindowsOpendeurdagAppClient
             {
                 Voornaam = this.voornaam.Text,
                 Achternaam = this.achternaam.Text,
-                Geboortedatum = this.geboortedatum.Date.ToString(),
+                Geboortedatum = this.geboortedatum.Date.ToString("dd/MM/yyyy"),
                     Straat = this.adres.Text,
                     Email = this.email.Text,
                     Telnr = 1 + int.Parse(this.gsmnummer.Text),
