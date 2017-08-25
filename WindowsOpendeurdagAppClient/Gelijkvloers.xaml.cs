@@ -28,7 +28,7 @@ namespace WindowsOpendeurdagAppClient
         }
         private void home_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Schoonmeersen), null);
+            this.Frame.Navigate(typeof(SchoonmeersenRondleiding), null);
         }
     }
 }
