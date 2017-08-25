@@ -1,10 +1,12 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text.RegularExpressions;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -39,8 +41,36 @@ namespace WindowsOpendeurdagAppClient
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            try { 
-            var form = new GebruikerFormulier
+            try {
+                EmailAddressAttribute em = new EmailAddressAttribute();
+                
+                if (this.voornaam.Text.Equals(String.Empty) || this.achternaam.Text.Equals(String.Empty) || this.adres.Text.Equals(String.Empty)
+                   || this.email.Text.Equals(String.Empty) || this.gsmnummer.Text.Equals(String.Empty))
+                {
+                    error.Text = "Niet alle gegevens zijn ingevuld!";
+                }
+                else if (!this.voornaam.Text.All(Char.IsLetter))
+                {
+                    error.Text = "Voornaam mag enkel uit letters bestaan!";
+                }
+                else if (!this.achternaam.Text.All(Char.IsLetter))
+                {
+                    error.Text = "Achternaam mag enkel uit letters bestaan!";
+                }
+                else if (!em.IsValid(email.Text))
+                {
+                    error.Text = "Gelieve een correct emailadres op te geven!";
+                }
+                else if (!this.gsmnummer.Text.All(Char.IsNumber))
+                {
+                    error.Text = "GSM nummer mag enkel uit cijfers bestaan!";
+                }
+                else if (this.gsmnummer.Text.Length !=10)
+                {
+                    error.Text = "GSM nummer mag enkel uit cijfers bestaan!";
+                }
+                else { 
+                var form = new GebruikerFormulier
             {
                 Voornaam = this.voornaam.Text,
                 Achternaam = this.achternaam.Text,
@@ -67,7 +97,7 @@ namespace WindowsOpendeurdagAppClient
 
                 //successmessage
                 successmessage.Visibility = Visibility.Visible;
-
+                }
 
             }
             catch (Exception ex)
