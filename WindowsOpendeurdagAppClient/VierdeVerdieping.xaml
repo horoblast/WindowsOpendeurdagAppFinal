@@ -52,8 +52,8 @@
                 <StackPanel Padding="10"></StackPanel>
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced" >
                     <StackPanel>
-                        <TextBlock x:Name="vierdeverdiepingtext" Text="Intro Vierde verdieping" Padding="0 0 0 10" HorizontalAlignment="Center"></TextBlock>
-                        <Image x:Name="GSCHB4" Width="750" Source="Assets/GSCHB4.png" />
+                        <TextBlock x:Name="vierdeverdiepingtext" Text="Vierde verdieping" FontSize="28" Padding="0 0 0 10" HorizontalAlignment="Center"></TextBlock>
+                        <Image x:Name="GSCHB4" Width="1280" Source="Assets/GSCHB4.png" />
                     </StackPanel>
                 </Border>
             </StackPanel>

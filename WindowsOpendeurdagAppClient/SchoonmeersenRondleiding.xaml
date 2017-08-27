@@ -57,7 +57,20 @@
                         </StackPanel>
 
                         <StackPanel HorizontalAlignment="Center">
-                            <TextBlock Text="Hieronder vind je de details per verdieping van gebouw B op de campus Schoonmeersen." />
+                            <TextBlock Text="Hieronder vind je de plattegrond van Campus Schoonmeersen. Onder de afbeelding kan je&#x0a;een gedetailleerde beschrijving weervinden." />
+                        </StackPanel>
+
+                        <StackPanel HorizontalAlignment="Center">
+                            <Image x:Name="planschoonmeersen" Width="1280" Source="Assets/PlanSchoonmeersen.png" Margin="0 10 0 10"/>
+                        </StackPanel>
+
+                        <StackPanel HorizontalAlignment="Center">
+                            <TextBlock Text="De hoofdingang en de ingang van de parking kan je vinden naast de Valentin Vaerwyckweg, waar de rode stip met het nummer 1 zich bevindt (West-toegang).&#x0a;Andere toegangen zijn ook mogelijk. Zo kan u ook via de achterkant de campus bereiken door via toegang 2 de campus te betreden via de Schoonmeersstraat (Zuid-toegang).&#x0a;Toegang 3 is als dichtste toegang van het Station Gent Sint-Pieters bereikbaar via de Sint-Denijslaan en via die toegang kom je ook direct aan de sporthal (Noord-toegang).&#x0a;Toegang 4 is dan weer te bereiken via de zij-ingang tussen de campus en de Voskenslaan (Oost-toegang).&#x0a;Via toegang 5 kan je gebouw A bereiken via de Voskenslaan.&#x0a;&#x0a;Let wel op! Je kan enkel via toegang 1 en 5 als bezoeker met je auto naar de campus komen! Om de andere toegangen te bereiken moet je de auto langs de weg parkeren."></TextBlock>
+                            <TextBlock Margin="0 10 0 0" Text="Eenmaal op de campus zijn gebouwen B, C, D en P gemakkelijk te voet bereikbaar. Indien u informatie zoekt over de Hogeschool kan u zich het best wijden naar gebouw B,.&#x0a; waar de algemene informatiedienst zich bevindt. Daar kunnen nieuwe leerlingen ook worden ingeschreven en kan je informatie vragen aan de balie."></TextBlock>
+                        </StackPanel>
+
+                    <StackPanel HorizontalAlignment="Center">
+                            <TextBlock Margin="0 20 0 10" FontSize="22" FontWeight="Bold" Text="Hieronder vind je de details per verdieping van gebouw B op de campus Schoonmeersen." />
                         </StackPanel>
 
                         <StackPanel>
@@ -96,6 +109,9 @@
 
                             </StackPanel>
                         </StackPanel>
+
+                        
+
                     </StackPanel>
                 </Border>
             </StackPanel>

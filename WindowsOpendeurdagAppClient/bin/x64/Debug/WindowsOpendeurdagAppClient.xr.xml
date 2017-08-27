@@ -17,6 +17,9 @@
     <RootPropertyPathName Name="Geboortedatum" />
     <RootPropertyPathName Name="Achternaam" />
     <RootPropertyPathName Name="Voornaam" />
+    <RootPropertyPathName Name="Text" />
+    <RootPropertyPathName Name="ScreenName" />
+    <RootPropertyPathName Name="ImageUrl" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -102,8 +105,10 @@
       <RootProperty Name="Stretch" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
       <RootProperty Name="IsDoubleTapEnabled" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.Aalst" />
@@ -119,6 +124,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
@@ -152,6 +159,9 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.AdminAgenda" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+    </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.AdminGebruikersformulieren" />
     <RootType FullName="WindowsOpendeurdagAppClient.AdminLogin" />
     <RootType FullName="WindowsOpendeurdagAppClient.Agenda" />

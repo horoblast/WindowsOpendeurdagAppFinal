@@ -78,8 +78,10 @@
 
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Geboortedatum, Converter={StaticResource StringFormatConverter}, ConverterParameter=\{0:dd/MM/yyyy\}}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Straat}" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Telnr}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                            <TextBlock TextWrapping="Wrap" Text="{Binding Email}" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                                                <TextBlock TextWrapping="Wrap"  Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                                 0<Run Text="{Binding Telnr}" />
+                                                </TextBlock>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding Email}" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Campus}" Grid.Column="1"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                             <TextBlock TextWrapping="Wrap" Text="{Binding Richting}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                                         </Grid>
