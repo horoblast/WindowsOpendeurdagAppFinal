@@ -141,6 +141,13 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="InputScope" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Tapped" />
+      <RootEvent Name="Click" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Converter" />
       <RootProperty Name="ConverterParameter" />
@@ -149,14 +156,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="HorizontalContentAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="IsEnabled" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Content" />
-      <RootEvent Name="Tapped" />
-      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="WindowsOpendeurdagAppClient.AdminAgenda" />
     <RootType FullName="Windows.UI.Xaml.Documents.Run">

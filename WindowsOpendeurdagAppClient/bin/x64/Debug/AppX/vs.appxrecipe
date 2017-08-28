@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal7\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-27T20:56:59.738</Modified>
+      <Modified>2017-08-27T21:57:14.934</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal7\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.exe">
       <PackagePath>entrypoint\WindowsOpendeurdagAppClient.exe</PackagePath>
-      <Modified>2017-08-27T20:56:58.625</Modified>
+      <Modified>2017-08-27T21:57:14.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bram\.nuget\packages\linqtotwitter\4.1.0\lib\uap10.0\LinqToTwitter.uap10.dll">
       <PackagePath>LinqToTwitter.uap10.dll</PackagePath>
@@ -668,7 +668,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal7\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\WindowsOpendeurdagAppClient.xr.xml">
       <PackagePath>WindowsOpendeurdagAppClient.xr.xml</PackagePath>
-      <Modified>2017-08-27T20:34:38.035</Modified>
+      <Modified>2017-08-27T21:51:47.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -677,11 +677,11 @@
     <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal7\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-27T20:56:59.203</Modified>
+      <Modified>2017-08-27T21:56:23.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal7\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\bin\x64\Debug\Core\WindowsOpendeurdagAppClient.exe">
       <PackagePath>WindowsOpendeurdagAppClient.exe</PackagePath>
-      <Modified>2017-08-27T20:56:59.735</Modified>
+      <Modified>2017-08-27T21:57:14.931</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

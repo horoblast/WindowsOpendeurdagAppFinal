@@ -58,7 +58,6 @@
                     <RelativePanel Padding="10">
                         <TextBlock x:Name="agenda" Text="Agenda" FontSize="22" HorizontalAlignment="Left"></TextBlock>
 
-                        <Button x:Name="confirmEvent" HorizontalAlignment="Center" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" IsEnabled="False" Margin="0,0,160,0">Confirm event</Button>
                         <Button x:Name="addevent" HorizontalAlignment="Center" Tapped="addevent_Tapped" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Make a new event</Button>
                     </RelativePanel>
               
@@ -67,6 +66,7 @@
                         <StackPanel>
                             <Grid>
                                 <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
                                     <ColumnDefinition Width="1*" />
                                     <ColumnDefinition Width="1*" />
                                     <ColumnDefinition Width="1*" />
@@ -83,6 +83,8 @@
                                 <TextBlock Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">Doelgroep</TextBlock>
                                 <TextBlock Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">Datum</TextBlock>
                                 <TextBlock Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center">Tijd</TextBlock>
+                                <TextBlock Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center">Update</TextBlock>
+                                <TextBlock Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center">Delete</TextBlock>
                             </Grid>
 
                             <ListView x:Name="lvagenda">
@@ -90,6 +92,8 @@
                                     <DataTemplate x:Name="datatemplate">
                                         <Grid x:Name="lvagendagrid">
                                             <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="1*" />
+                                                <ColumnDefinition Width="1*" />
                                                 <ColumnDefinition Width="1*" />
                                                 <ColumnDefinition Width="1*" />
                                                 <ColumnDefinition Width="1*" />
@@ -104,6 +108,8 @@
                                             <TextBox x:Name="tbdoelgroep" TextWrapping="Wrap" Text="{Binding ForWhom}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
                                             <TextBox x:Name="tbdatum" TextWrapping="Wrap" Text="{Binding DayOfEvent, Converter={StaticResource StringFormatConverter}, ConverterParameter=\{0:dd/MM/yyyy\}}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
                                             <TextBox x:Name="tbtijd" TextWrapping="Wrap" Text="{Binding Time}" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+                                            <Button x:Name="tbupdate" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center" Tapped="tbupdate_Tapped">Update</Button>
+                                            <Button x:Name="tbdelete" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" Tapped="tbdelete_Tapped">Delete</Button>
                                         </Grid>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
