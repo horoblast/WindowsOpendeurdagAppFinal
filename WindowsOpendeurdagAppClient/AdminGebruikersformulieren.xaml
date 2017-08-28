@@ -53,7 +53,7 @@
                 </Border>
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Formulieren" FontSize="22" HorizontalAlignment="Center"></TextBlock>
-                    <Button x:Name="downloadcsv" HorizontalAlignment="Center" Tapped="download_Tapped" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Download als csv</Button>
+                    <Button x:Name="downloadcsv" HorizontalAlignment="Right" Tapped="download_Tapped" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Download als csv</Button>
 
                     <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                         <StackPanel>

@@ -51,8 +51,60 @@
                         <Image x:Name="adminlogout" Source="../Assets/logouticonPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" Tapped="adminlogout_Tapped"/>
                     </RelativePanel>
                 </Border>
+                <StackPanel Orientation="Vertical">
+                    <Border BorderBrush="Black" BorderThickness="0 0 0 2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock TextWrapping="Wrap" Text="Aantal formulieren"  HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Name="Ttotaal" Grid.Column="1"   HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Aalst"   Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Name="TaantalAalst"  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Bijloke"   Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap"  Name="TaantalBijloke"  Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Ledeganck"   Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap"  Name="TaantalLedeganck"  Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Melle"   Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap"  Name="TaantalMelle"  Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Mercator"   Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap"  Name="TaantalMercator"  Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Bedrijfsmanagement"   Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap"  Name="TaantalBedrijfsmanagement"  Grid.Row="6" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Officemanagement"   Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap"  Name="TaantalOfficemanagement"  Grid.Row="7" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Retailmanagement"   Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap"  Name="TaantalRetailmanagement"  Grid.Row="8" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                            <TextBlock TextWrapping="Wrap" Text="Aantal Toegepaste Informatica"   Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock TextWrapping="Wrap"  Name="TaantalTIN"  Grid.Row="9" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                        </Grid>
+                    </Border>
+                </StackPanel>
             </StackPanel>
-            
+           
         </Grid>
         
     </ScrollViewer>
