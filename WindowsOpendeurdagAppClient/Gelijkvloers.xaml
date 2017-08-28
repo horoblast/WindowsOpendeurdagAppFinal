@@ -52,8 +52,8 @@
                 <StackPanel Padding="10"></StackPanel>
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced" >
                     <StackPanel>
-                        <TextBlock x:Name="gelijkvloerstext" Text="Intro gelijkvloers" Padding="0 0 0 10" HorizontalAlignment="Center"></TextBlock>
-                        <Image x:Name="GSCHB0" Width="750" Source="Assets/GSCHB0.png" />
+                        <TextBlock x:Name="gelijkvloerstext" Text="Gelijkvloers" FontSize="28" Padding="0 0 0 10" HorizontalAlignment="Center"></TextBlock>
+                        <Image x:Name="GSCHB0" Width="1280" Source="Assets/GSCHB0.png" />
                     </StackPanel>
                 </Border>
             </StackPanel>
