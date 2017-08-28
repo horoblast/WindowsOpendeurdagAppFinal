@@ -95,7 +95,7 @@ namespace WindowsOpendeurdagAppClient
 
         private async void tbdelete_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            var item = sender as DependencyObject;
+            /*var item = sender as DependencyObject;
 
             while(!(item is ListViewItem))
             {
@@ -108,7 +108,7 @@ namespace WindowsOpendeurdagAppClient
 
             HttpClient client = new HttpClient();
 
-            var res = await client.DeleteAsync(weburidelete);
+            var res = await client.DeleteAsync(weburidelete);*/
         }
         
     }

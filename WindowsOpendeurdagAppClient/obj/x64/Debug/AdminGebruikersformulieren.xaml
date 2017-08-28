@@ -49,14 +49,15 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
-                    <Image x:ConnectionId='7' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                    <Image x:ConnectionId='8' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
                 </Border>
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Formulieren" FontSize="22" HorizontalAlignment="Center"></TextBlock>
+                    <Button x:ConnectionId='6' x:Name="downloadcsv" HorizontalAlignment="Right"                          RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Download als csv</Button>
 
                     <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                         <StackPanel>
-                            <ListView x:ConnectionId='6' x:Name="lvformulieren">
+                            <ListView x:ConnectionId='7' x:Name="lvformulieren">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <Border BorderBrush="Black" BorderThickness="0 0 0 2">
