@@ -6,8 +6,10 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -26,6 +28,7 @@ namespace WindowsOpendeurdagAppClient
     /// </summary>
     public sealed partial class AdminGebruikersformulieren : Page
     {
+
         public AdminGebruikersformulieren()
         {
             this.InitializeComponent();
@@ -51,6 +54,29 @@ namespace WindowsOpendeurdagAppClient
             //json nuget package!!
             var lst = JsonConvert.DeserializeObject<ObservableCollection<GebruikerFormulier>>(jsonstring);
             lvformulieren.ItemsSource = lst;
+
+        }
+
+        private async void download_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            // system.net import!!
+            HttpClient client = new HttpClient();
+            var jsonstring = await client.GetStringAsync(new Uri("http://localhost:64288/api/gebruikerformuliers"));
+            //json nuget package!!
+            var lst = JsonConvert.DeserializeObject<ObservableCollection<GebruikerFormulier>>(jsonstring);
+            StringBuilder sb = new StringBuilder();
+            foreach (GebruikerFormulier list in lst)
+            {
+                sb.Append(list.ToString());
+            }
+            Windows.Storage.StorageFolder storageFolder =
+    Windows.Storage.ApplicationData.Current.LocalFolder;
+            Windows.Storage.StorageFile newFile =
+                await storageFolder.CreateFileAsync("data.csv",
+        Windows.Storage.CreationCollisionOption.ReplaceExisting);
+        //    StorageFile newFile = await DownloadsFolder.CreateFileAsync("data.csv");
+            await Windows.Storage.FileIO.WriteTextAsync(newFile, sb.ToString());
+
         }
     }
 
@@ -72,4 +98,8 @@ namespace WindowsOpendeurdagAppClient
             throw new NotImplementedException();
         }
     }
+
+
+
+
 }
