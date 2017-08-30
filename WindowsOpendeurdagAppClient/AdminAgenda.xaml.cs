@@ -33,13 +33,45 @@ namespace WindowsOpendeurdagAppClient
             this.InitializeComponent();
         }
 
-        private void home_Tapped(object sender, TappedRoutedEventArgs e)
+        private async void home_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            HttpClient client = new HttpClient();
+            var jsonstring = await client.GetStringAsync(new Uri("http://localhost:64288/api/calendarevents"));
+            //json nuget package!!
+            var lst = JsonConvert.DeserializeObject<ObservableCollection<CalendarEvent>>(jsonstring);
+
+            foreach(CalendarEvent calevent in lst)
+            {
+                if (calevent.Name == null || calevent.Adres == null || calevent.ForWhom == null || calevent.Time == null)
+                {
+                    var caleventid = calevent.CalendarEventId;
+                    var weburidelete = "http://localhost:64288/api/calendarevents/" + caleventid;
+                   
+                    var res = await client.DeleteAsync(weburidelete);
+                }
+            }
+
             this.Frame.Navigate(typeof(AdminLogin), null);
         }
 
-        private void adminlogout_Tapped(object sender, TappedRoutedEventArgs e)
+        private async void adminlogout_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            HttpClient client = new HttpClient();
+            var jsonstring = await client.GetStringAsync(new Uri("http://localhost:64288/api/calendarevents"));
+            //json nuget package!!
+            var lst = JsonConvert.DeserializeObject<ObservableCollection<CalendarEvent>>(jsonstring);
+
+            foreach (CalendarEvent calevent in lst)
+            {
+                if (calevent.Name == null || calevent.Adres == null || calevent.ForWhom == null || calevent.Time == null)
+                {
+                    var caleventid = calevent.CalendarEventId;
+                    var weburidelete = "http://localhost:64288/api/calendarevents/" + caleventid;
+
+                    var res = await client.DeleteAsync(weburidelete);
+                }
+            }
+
             this.Frame.Navigate(typeof(MainPage), null);
         }
 
@@ -58,7 +90,9 @@ namespace WindowsOpendeurdagAppClient
         private async void addevent_Tapped(object sender, TappedRoutedEventArgs e)
         {
             // aanmaken invoervelden van het calendar event
-            var calevent = new CalendarEvent() { Name = "", Adres = "", ForWhom = "", DayOfEvent = new DateTime(2016, 12, 31, 0, 0, 0), Time = "" };
+            //var calevent = new CalendarEvent() { Name = "", Adres = "", ForWhom = "", DayOfEvent = new DateTime(2016, 12, 31, 0, 0, 0), Time = "" };
+
+            var calevent = new CalendarEvent() {DayOfEvent = new DateTime(2016, 12, 31, 0, 0, 0)};
 
             // aanmaken post call naar DB om de nieuwe calendarevent op te slaan if confirm event button is tapped
             var caleventJson = JsonConvert.SerializeObject(calevent);
@@ -86,17 +120,24 @@ namespace WindowsOpendeurdagAppClient
 
             CalendarEvent calevent = ((CalendarEvent)data);
 
-            caleventjson.Name = calevent.Name;
-            caleventjson.Adres = calevent.Adres;
-            caleventjson.ForWhom = calevent.ForWhom;
-            caleventjson.DayOfEvent = calevent.DayOfEvent;
-            caleventjson.Time = calevent.Time;
+            if(calevent.Name == null || calevent.Adres == null || calevent.ForWhom == null || calevent.Time == null)
+            {
+                errormessage.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                caleventjson.Name = calevent.Name;
+                caleventjson.Adres = calevent.Adres;
+                caleventjson.ForWhom = calevent.ForWhom;
+                caleventjson.DayOfEvent = calevent.DayOfEvent;
+                caleventjson.Time = calevent.Time;
 
-            string caleventupdated = JsonConvert.SerializeObject(caleventjson);
+                string caleventupdated = JsonConvert.SerializeObject(caleventjson);
 
-            var res = await client.PutAsync(weburiupdate, new StringContent(caleventupdated, System.Text.Encoding.UTF8, "application/json"));
+                var res = await client.PutAsync(weburiupdate, new StringContent(caleventupdated, System.Text.Encoding.UTF8, "application/json"));
 
-            this.Frame.Navigate(typeof(AdminAgenda), null);
+                this.Frame.Navigate(typeof(AdminAgenda), null);
+            }
         }
 
         private async void tbdelete_Tapped(object sender, TappedRoutedEventArgs e)

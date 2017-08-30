@@ -1,1 +1,1 @@
-C:\Users\Bram\Documents\Visual Studio 2015\Projects\WindowsOpendeurdagAppFinal9\WindowsOpendeurdagAppFinal\WindowsOpendeurdagAppClient\WindowsOpendeurdagAppClient.csproj;x64
+C:\Users\sofie\Downloads\Groep2_Delaeter_Sofie_Dobbelaere_Bram\WindowsOpendeurdagAppClient\WindowsOpendeurdagAppClient.csproj;x64

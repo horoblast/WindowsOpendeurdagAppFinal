@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace WindowsOpendeurdagAppWeb.Models
 {
-    public class GebruikerFormulier
+    public class GebruikerFormulier: CSVClass
     {
         public int GebruikerFormulierId { get; set; }
 
@@ -24,5 +24,26 @@ namespace WindowsOpendeurdagAppWeb.Models
         public string Campus { get; set; }
 
         public string Richting { get; set; }
+
+        public override string ToString()
+        {
+            return GebruikerFormulierId.ToString() + "," +
+                                AsString(Voornaam) + "," +
+                                AsString(Achternaam) + "," +
+                                AsString(Geboortedatum) + "," +
+                                AsString(Straat) + "," +
+                                AsString(Email) + "," +
+                                Telnr + "," +
+                                AsString(Campus) + "," +
+                                AsString(Richting) + Environment.NewLine;
+        }
+    }
+
+    public class CSVClass
+    {
+        public static string AsString(string text)
+        {
+            return "\"" + text + "\"";
+        }
     }
 }

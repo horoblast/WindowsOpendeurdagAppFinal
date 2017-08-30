@@ -50,18 +50,20 @@
             <StackPanel Orientation="Vertical" Padding="20">
                 <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                     <RelativePanel>
-                        <Image x:ConnectionId='11' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
-                        <Image x:ConnectionId='12' x:Name="adminlogout" Source="../Assets/logouticonPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"                            />
+                        <Image x:ConnectionId='12' x:Name="home" Source="../Assets/Phone/HogentLogoMobile.png"  Stretch="None" HorizontalAlignment="Left"                     ></Image>
+                        <Image x:ConnectionId='13' x:Name="adminlogout" Source="../Assets/logouticonPhone.png"  Stretch="None" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"                            />
                     </RelativePanel>
                 </Border>
                 <StackPanel Orientation="Vertical">
                     <RelativePanel Padding="10">
-                        <TextBlock x:ConnectionId='9' x:Name="agenda" Text="Agenda" FontSize="22" HorizontalAlignment="Left"></TextBlock>
+                        <TextBlock x:ConnectionId='10' x:Name="agenda" Text="Agenda" FontSize="22" HorizontalAlignment="Left"></TextBlock>
 
-                        <Button x:ConnectionId='10' x:Name="addevent" HorizontalAlignment="Center"                          RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Make a new event</Button>
-                    </RelativePanel>
-              
-                    
+                        <Button x:ConnectionId='11' x:Name="addevent" HorizontalAlignment="Center"                          RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Make a new event</Button>
+                        </RelativePanel>
+
+                    <TextBlock x:ConnectionId='6' x:Name="errormessage" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold" Foreground="Red" Visibility="Collapsed">Gelieve alle velden in te vullen!</TextBlock>
+
+
                     <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                         <StackPanel>
                             <Grid>
@@ -87,7 +89,7 @@
                                 <TextBlock Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center">Delete</TextBlock>
                             </Grid>
 
-                            <ListView x:ConnectionId='6' x:Name="lvagenda">
+                            <ListView x:ConnectionId='7' x:Name="lvagenda">
                                 <ListView.ItemTemplate>
                                     <DataTemplate x:Name="datatemplate">
                                         <Grid x:Name="lvagendagrid">
@@ -108,8 +110,8 @@
                                             <TextBox x:Name="tbdoelgroep" TextWrapping="Wrap" Text="{Binding ForWhom, Mode=TwoWay}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="Doelgroep"></TextBox>
                                             <TextBox x:Name="tbdatum" TextWrapping="Wrap" Text="{Binding DayOfEvent, Mode=TwoWay, Converter={StaticResource StringFormatConverter}, ConverterParameter=\{0:dd/MM/yyyy\}}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" ></TextBox>
                                             <TextBox x:Name="tbtijd" TextWrapping="Wrap" Text="{Binding Time, Mode=TwoWay}" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="Time"></TextBox>
-                                            <Button x:ConnectionId='7' x:Name="tbupdate" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"                         >Update</Button>
-                                            <Button x:ConnectionId='8' x:Name="tbdelete" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"                         >Delete</Button>
+                                            <Button x:ConnectionId='8' x:Name="tbupdate" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"                         >Update</Button>
+                                            <Button x:ConnectionId='9' x:Name="tbdelete" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"                         >Delete</Button>
                                         </Grid>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
