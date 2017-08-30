@@ -63,7 +63,8 @@ namespace WindowsOpendeurdagAppClient
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)
         {
-            throw new NotImplementedException();
+            var datestring = (string)value;
+            return DateTime.Parse(datestring);
         }
     }
 }

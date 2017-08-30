@@ -103,11 +103,11 @@
                                             <Grid.RowDefinitions>
                                                 <RowDefinition Height="1*" />
                                             </Grid.RowDefinitions>
-                                            <TextBox x:Name="tbevent" TextWrapping="Wrap" Text="{Binding Name}"  HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
-                                            <TextBox x:Name="tbplaats" TextWrapping="Wrap" Text="{Binding Adres}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
-                                            <TextBox x:Name="tbdoelgroep" TextWrapping="Wrap" Text="{Binding ForWhom}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
-                                            <TextBox x:Name="tbdatum" TextWrapping="Wrap" Text="{Binding DayOfEvent, Converter={StaticResource StringFormatConverter}, ConverterParameter=\{0:dd/MM/yyyy\}}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
-                                            <TextBox x:Name="tbtijd" TextWrapping="Wrap" Text="{Binding Time}" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+                                            <TextBox x:Name="tbevent" TextWrapping="Wrap" Text="{Binding Name, Mode=TwoWay }"  HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="Name"></TextBox>
+                                            <TextBox x:Name="tbplaats" TextWrapping="Wrap" Text="{Binding Adres, Mode=TwoWay}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="Address"></TextBox>
+                                            <TextBox x:Name="tbdoelgroep" TextWrapping="Wrap" Text="{Binding ForWhom, Mode=TwoWay}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="Doelgroep"></TextBox>
+                                            <TextBox x:Name="tbdatum" TextWrapping="Wrap" Text="{Binding DayOfEvent, Mode=TwoWay, Converter={StaticResource StringFormatConverter}, ConverterParameter=\{0:dd/MM/yyyy\}}" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" ></TextBox>
+                                            <TextBox x:Name="tbtijd" TextWrapping="Wrap" Text="{Binding Time, Mode=TwoWay}" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="Time"></TextBox>
                                             <Button x:Name="tbupdate" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center" Tapped="tbupdate_Tapped">Update</Button>
                                             <Button x:Name="tbdelete" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" Tapped="tbdelete_Tapped">Delete</Button>
                                         </Grid>

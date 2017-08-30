@@ -55,27 +55,10 @@ namespace WindowsOpendeurdagAppClient
             lvagenda.ItemsSource = lst;
         }
 
-        private async void agendaupdate_Click(object sender, RoutedEventArgs e)
-        {
-            /*var form = new CalendarEvent
-            {
-                Name = this.tbevent.Text,
-                Adres = this.tbplaats.Text,
-                ForWhom = this.tbdoelgroep.Text,
-                DayOfEvent = Convert.ToDateTime(this.tbdatum.Text),
-                Time = this.tbtijd.Text,
-            };
-            HttpClient client = new HttpClient();
-            var formJson = JsonConvert.SerializeObject(form);
-            var res = await client.PutAsync("http://localhost:64288/api/calendarevents", new
-                StringContent(formJson, System.Text.Encoding.UTF8, "application/json"));*/
-
-        }
-
         private async void addevent_Tapped(object sender, TappedRoutedEventArgs e)
         {
             // aanmaken invoervelden van het calendar event
-            var calevent = new CalendarEvent() { Name = "AddName", Adres = "AddAdres", ForWhom = "AddForWhom", DayOfEvent = new DateTime(2016, 12, 31, 0, 0, 0), Time = "AddTime" };
+            var calevent = new CalendarEvent() { Name = "", Adres = "", ForWhom = "", DayOfEvent = new DateTime(2016, 12, 31, 0, 0, 0), Time = "" };
 
             // aanmaken post call naar DB om de nieuwe calendarevent op te slaan if confirm event button is tapped
             var caleventJson = JsonConvert.SerializeObject(calevent);
@@ -90,25 +73,46 @@ namespace WindowsOpendeurdagAppClient
 
         private async void tbupdate_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            
+            var item = sender as Button;
+            var data = item.DataContext;
+            var id = ((CalendarEvent)data).CalendarEventId;
+
+            var weburiupdate = "http://localhost:64288/api/calendarevents/" + id;
+
+            HttpClient client = new HttpClient();
+
+            var jsonstring = await client.GetStringAsync(new Uri(weburiupdate));
+            CalendarEvent caleventjson = JsonConvert.DeserializeObject<CalendarEvent>(jsonstring);
+
+            CalendarEvent calevent = ((CalendarEvent)data);
+
+            caleventjson.Name = calevent.Name;
+            caleventjson.Adres = calevent.Adres;
+            caleventjson.ForWhom = calevent.ForWhom;
+            caleventjson.DayOfEvent = calevent.DayOfEvent;
+            caleventjson.Time = calevent.Time;
+
+            string caleventupdated = JsonConvert.SerializeObject(caleventjson);
+
+            var res = await client.PutAsync(weburiupdate, new StringContent(caleventupdated, System.Text.Encoding.UTF8, "application/json"));
+
+            this.Frame.Navigate(typeof(AdminAgenda), null);
         }
 
         private async void tbdelete_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            /*var item = sender as DependencyObject;
-
-            while(!(item is ListViewItem))
-            {
-                item = VisualTreeHelper.GetParent(item);
-            }
+            var item = sender as Button;
+            var data = item.DataContext;
             
-            var id = ((CalendarEvent) item).CalendarEventId;
+            var id = ((CalendarEvent)data).CalendarEventId;
             
             var weburidelete = "http://localhost:64288/api/calendarevents/" + id;
 
             HttpClient client = new HttpClient();
 
-            var res = await client.DeleteAsync(weburidelete);*/
+            var res = await client.DeleteAsync(weburidelete);
+
+            this.Frame.Navigate(typeof(AdminAgenda), null);
         }
         
     }
@@ -128,7 +132,8 @@ namespace WindowsOpendeurdagAppClient
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)
         {
-            throw new NotImplementedException();
+            var datestring = (string)value;
+            return DateTime.Parse(datestring);
         }
     }
 }
