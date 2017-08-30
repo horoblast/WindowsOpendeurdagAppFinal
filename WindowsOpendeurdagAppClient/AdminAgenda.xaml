@@ -59,9 +59,11 @@
                         <TextBlock x:Name="agenda" Text="Agenda" FontSize="22" HorizontalAlignment="Left"></TextBlock>
 
                         <Button x:Name="addevent" HorizontalAlignment="Center" Tapped="addevent_Tapped" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">Make a new event</Button>
-                    </RelativePanel>
-              
-                    
+                        </RelativePanel>
+
+                    <TextBlock x:Name="errormessage" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold" Foreground="Red" Visibility="Collapsed">Gelieve alle velden in te vullen!</TextBlock>
+
+
                     <Border BorderBrush="Black" BorderThickness="2" Background="#c9dced">
                         <StackPanel>
                             <Grid>
